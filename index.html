@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Replication Package — title</title>
+  <meta name="description" content="Replication package website: code, datasets, and instructions to reproduce results for the paper." />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="topbar" role="banner">
+    <div class="container topbar__inner">
+      <div class="brand">
+        <div class="brand__mark" aria-hidden="true">⧉</div>
+        <div class="brand__text">
+          <div class="brand__title">Replication Package</div>
+          <div class="brand__subtitle">Title</div>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#artifacts">Artifacts</a>
+        <a href="#reproduce">Reproduce</a>
+        <a href="#results">Results</a>
+        <button id="themeToggle" class="btn btn--ghost" type="button" aria-label="Toggle theme">
+          <span class="btn__icon" aria-hidden="true">◐</span>
+          <span class="btn__label">Theme</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container" role="main">
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero__left">
+        <h1 id="heroTitle">Replication package for Title</h1>
+        <p class="lead">
+          This website hosts the artifacts to reproduce the experiments in
+          <span class="mono">“Title”</span>.
+        </p>
+
+        <div class="cta">
+          <a class="btn btn--primary" href="./downloads/AntiCopyPaster-2025.1-3.2.zip" download>Download plugin (zip)</a>
+          <a class="btn" href="./downloads/results.zip" download>Download results (zip)</a>
+          <a class="btn" href="./downloads/jhotdraw.zip" download>Download JHotDraw (zip)</a>
+          <a class="btn" href="./downloads/prompt.zip" download>Download prompt (zip)</a>
+          <a class="btn" href="./downloads/statistical_analysis.zip" download>Download code for statistical tests (zip)</a>
+        </div>
+      </div>
+
+      <aside class="hero__right" aria-label="Quick links">
+        <div class="card">
+          <div class="card__title">Paper PDF</div>
+          <p class="card__desc">The paper associated with this replication package.</p>
+          <a class="btn btn--small" href="./paper.pdf" download>Download paper</a>
+        </div>
+      </aside>
+    </section>
+
+    <section id="abstract" class="section" aria-labelledby="abstractTitle">
+      <div class="section__head">
+        <h2 id="abstractTitle">Abstract</h2>
+      </div>
+
+      <p>
+      </p>
+    </section>
+
+    <!-- <section id="reproduce" class="section" aria-labelledby="reproduceTitle">
+      <div class="section__head">
+        <h2 id="reproduceTitle">How to reproduce</h2>
+      </div>
+      <details>
+        <summary>General steps</summary>
+        <ol>
+          <li>Download the code and data from the links above.</li>
+          <li>Follow the instructions in <span class="mono">README.md</span> in the code package for environment setup and running the experiments.</li>
+        </ol>
+      </details>
+      <div class="subsection" aria-labelledby="compileJHotDrawTitle">
+        <h3 id="compileJHotDrawTitle">How to compile JHotDraw (IntelliJ IDEA)</h3>
+        <ol class="steps">
+          <li class="step">
+            <div class="step__title">Unzip JHotDraw and open in IntelliJ</div>
+            <p class="muted">Extract the JHotDraw folder from <span class="mono">jhotdraw.zip</span>, then open that folder in IntelliJ IDEA.</p>
+          </li>
+
+          <li class="step">
+            <div class="step__title">Mark sources root</div>
+            <p class="muted">In the Project view, right click <span class="mono">src</span> → <span class="mono">Mark Directory as</span> → <span class="mono">Sources Root</span>.</p>
+          </li>
+
+          <li class="step">
+            <div class="step__title">Install Java 8 (Temurin)</div>
+            <p class="muted">Download and install Java 8 (Temurin) from <a href="https://adoptium.net" target="_blank" rel="noreferrer">Adoptium</a>.</p>
+          </li>
+
+          <li class="step">
+            <div class="step__title">Set Project SDK and language level to Java 8</div>
+            <p class="muted">Go to <span class="mono">File → Project Structure</span>:</p>
+            <ul class="bullets">
+              <li><b>Project Settings → Project</b>: set <b>SDK</b> to <span class="mono">temurin-1.8</span> and <b>Language level</b> to <span class="mono">8</span> (Lambdas, type annotations, etc.).</li>
+              <li><b>Project Settings → Modules → Dependencies</b>: set <b>Module SDK</b> to <b>Project SDK</b>.</li>
+              <li><b>Platform Settings → SDKs</b>: make sure <span class="mono">temurin-1.8</span> is listed (add it if needed).</li>
+            </ul>
+          </li>
+
+          <li class="step">
+            <div class="step__title">Add required JARs from the repo</div>
+            <p class="muted">In the <span class="mono">libs</span> folder, add these JARs as libraries:</p>
+            <ul class="bullets">
+              <li><span class="mono">batik-all-1.7.jar</span></li>
+              <li><span class="mono">jdo-api-3.0.1.jar</span></li>
+              <li><span class="mono">junit-4.12.jar</span></li>
+            </ul>
+            <p class="muted">In IntelliJ: right click each JAR → <span class="mono">Add as Library…</span>.</p>
+          </li>
+
+          <li class="step">
+            <div class="step__title">Download and add xml-apis JARs (via Maven)</div>
+            <p class="muted">Fetch the missing JARs using Maven:</p>
+            <pre class="code"><code>mvn dependency:get -Dartifact=xml-apis:xml-apis:1.4.01
+mvn dependency:get -Dartifact=xml-apis:xml-apis-ext:1.3.04</code></pre>
+            <p class="muted">They will be stored under your local Maven repo (e.g., on Windows):</p>
+            <pre class="code"><code>C:\Users\&lt;you&gt;\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar
+C:\Users\&lt;you&gt;\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar</code></pre>
+            <p class="muted">Add both JARs in IntelliJ: <span class="mono">File → Project Structure → Project Settings → Libraries → New Project Library → Java</span>.</p>
+          </li>
+
+          <li class="step">
+            <div class="step__title">Build</div>
+            <p class="muted">Finally, run <span class="mono">Build → Build Project</span> to compile JHotDraw.</p>
+            <img src="assets/build.png" alt="">
+          </li>
+        </ol>
+      </div>
+
+    </section> -->
+
+    <section id="results" class="section" aria-labelledby="resultsTitle">
+      <div class="section__head">
+        <h2 id="resultsTitle">Results</h2>
+      </div>
+
+      <div class="toolbar" role="region" aria-label="Results table controls">
+        <label class="field">
+          <span class="field__label">Search</span>
+          <input id="searchInput" class="input" type="search" placeholder="filter rows…" />
+        </label>
+
+        <label class="field">
+          <span class="field__label">Model</span>
+          <select id="modelFilter" class="select">
+            <option value="">All</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span class="field__label">Scenario</span>
+          <select id="scenarioFilter" class="select">
+            <option value="">All</option>
+            <option value="MultiAgent">MultiAgent</option>
+            <option value="SingleLLM">SingleLLM</option>
+            <option value="NoRAG">NoRAG</option>
+            <option value="NoUsefulness">NoUsefulness</option>
+            <option value="NoFeedback">NoFeedback</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span class="field__label">Clone Type</span>
+          <select id="settingFilter" class="select">
+            <option value="">All</option>
+          </select>
+        </label>
+
+        <button id="downloadCsvBtn" class="btn btn--ghost" type="button">Download Zip</button>
+      </div>
+
+      <div class="tablewrap" role="region" aria-label="Results preview table" tabindex="0" style="overflow-x:visible; width:100%;">
+        <table id="resultsTable" class="table" style="width:100%; table-layout:auto;">
+          <thead>
+            <tr>
+              <th data-sort="Model" scope="col">Model</th>
+              <th data-sort="File" scope="col">File</th>
+              <th data-sort="Clone Method" scope="col">Clone Method</th>
+              <th data-sort="Clone Type" scope="col">Clone Type</th>
+              <th data-sort="Detect" scope="col">Detect</th>
+              <th data-sort="Use Fallback" scope="col">Fallback</th>
+              <th data-sort="Success Iteration Number" scope="col">Success Iter</th>
+              <th data-sort="Compile" scope="col">Compile</th>
+              <th data-sort="Test" scope="col">Test</th>
+              <th data-sort="Usefulness" scope="col">Useful</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Filled by script.js -->
+          </tbody>
+        </table>
+      </div>
+
+    </section>
+
+    <!-- <section id="jdeodorant" class="section" aria-labelledby="jdeoTitle">
+      <div class="section__head">
+        <h2 id="jdeoTitle">Results: JDeodorant</h2>
+      </div>
+
+      <div id="jdeoBanner" class="banner" aria-live="polite" hidden></div>
+
+      <div class="toolbar" role="region" aria-label="JDeodorant table controls">
+        <label class="field">
+          <span class="field__label">Search</span>
+          <input id="jdeoSearchInput" class="input" type="search" placeholder="filter rows…" />
+        </label>
+
+        <label class="field">
+          <span class="field__label">Model</span>
+          <select id="jdeoModelFilter" class="select">
+            <option value="">All</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span class="field__label">Clone Type</span>
+          <select id="jdeoCloneTypeFilter" class="select">
+            <option value="">All</option>
+          </select>
+        </label>
+
+        <button id="jdeoDownloadCsvBtn" class="btn btn--ghost" type="button">Download CSV</button>
+      </div> -->
+
+      <!-- <div class="tablewrap" role="region" aria-label="JDeodorant results table" tabindex="0" style="overflow-x:visible; width:100%;">
+        <table id="jdeoTable" class="table" style="width:100%; table-layout:auto;">
+          <thead>
+            <tr>
+              <th data-sort="Model" scope="col">Model</th>
+              <th data-sort="File" scope="col">File</th>
+              <th data-sort="Clone Method" scope="col">Clone Method</th>
+              <th data-sort="Clone Type" scope="col">Clone Type</th>
+              <th data-sort="Deckard Detect" scope="col">Deckard Detect</th>
+              <th data-sort="Compile" scope="col">Compile</th>
+              <th data-sort="Test" scope="col">Test</th>
+              <th data-sort="Usefulness" scope="col">Useful</th>
+              <th data-sort="Precondition Violation" scope="col">Precondition Violation</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div> -->
+
+      <p class="muted small">
+        Expected CSV columns: Model, File, Clone Method, Clone Type, Deckard Detect, Compile, Test, Usefulness, Precondition Violation.
+      </p>
+    </section>
+
+    <footer class="footer" role="contentinfo">
+      <div class="footer__inner">
+        <div class="muted small">
+          © <span id="year"></span> Replication package website.
+        </div>
+        <div class="footer__links">
+          <a href="#main">Top</a>
+          <a href="./downloads/">Downloads</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>

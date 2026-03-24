@@ -1,0 +1,244 @@
+Model,File,Clone Method,Clone Type,Detect,Compile,Test,Usefulness,Iteration
+Deepseek v3.2,helper.java,getDrawingView,Type 2(b),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,drawapplet,init,Type 1(a),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,FigureAttributeConstant,addConstant,Type 1(a),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,drawapplet,createAttributeConstant,Type 1(a),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,nothingapplet,createTools,Type 1(a),Yes,Yes,Yes,3 incomplete refactoring,no
+Deepseek v3.2,CompositeFigureCreationTool,mouseDown,Type 1(b),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,ChopDiamondConnector,chop,Type 1(b),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,MiniMapDesktop,createLeftComponent,Type 1(b),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,Animator,run,Type 1(b),Yes,Yes,Yes,1 incomlpete refactoring,2
+Deepseek v3.2,CTXWindowMenu,buildChildMenus,Type 1(c),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,ColorMap,colorIndex,Type 1(c),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,BouncingDrawing,animationStep,Type 1(c),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,PertDependency,handleConnect,Type 1(c),Yes,Yes,Yes,3 incomplete refactoring,no
+Deepseek v3.2,AutoscrollHelper,getAutoscrollInsets,Type 2(a),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,Geom ,direction,Type 2(a),Yes,Yes,Yes,3 incomplete refactoring,no
+Deepseek v3.2,JHDDropTargetListener,dragOver,Type 2(a),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,StandardLayouter,layout,Type 2(a),Yes,Yes,Yes,3 incomplete refactoring,no
+Deepseek v3.2,LineConnection,basicMoveBy,Type 2(b),Yes,Yes,Yes,1 incomlpete refactoring,2
+Deepseek v3.2,Triangle Figure,rotate,Type 2(b),Yes,Yes,Yes,3 incomplete refactoring,no
+Deepseek v3.2,SplitPaneDesktop,removeFromDesktop,Type 2(b),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,DNDHelper,createDragGestureRecognizer,Type-3(e),Yes,yes,Yes,3 incomplete refactoring,no
+Deepseek v3.2,DragNDropTool,setCursor,Type-3(c),Yes,yes,Yes,3 incomplete refactoring,no
+Deepseek v3.2,JHDDragSourceListener,dragEnter,Type-3(e),yes,yes,Yes,3 incomplete refactoring,no
+Deepseek v3.2,ColorContentProducer,read,Type-3(c),Yes,Yes,Yes,3 incomplete refactoring,no
+Deepseek v3.2,CustomToolBar,activateTools,Type-3(d),Yes,yes,Yes,3 incomplete refactoring,no
+Deepseek v3.2,FloatingTextArea,endOverlay,Type-3(c),Yes,Yes,yes,3 incomplete refactoring,no
+Deepseek v3.2,MiniMapView,paint,Type-3(c),Yes,Yes,Yes,2 incomplete refactoring,3
+Deepseek v3.2,PolygonFigure,basicDisplayBox,Type-3(c),Yes,Yes,Yes,2 no clones + Yes,3
+Deepseek v3.2,SimpleLayouter,calculateLayout,Type-3(c),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,DragTracker,mouseDrag,Type-3(e),Yes,Yes,Yes,3 incomplete refactoring,no
+Deepseek v3.2,JPanelDesktop,createContents,Type-3(a),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,MDI_DrawApplication,newView,Type-3(a),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,PolygonTool,deactivate,Type-3(a),Yes,Yes,Yes,3 incomplete refactoring,no
+Deepseek v3.2,SVGStorageFormat,store,Type-3(a),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,TriangleRotationHandle,getOrigin,Type-3(d),yes,yes,yes,yes,1
+Deepseek v3.2,ElbowHandle,invokeStep,Type-3(d),yes,yes,yes,2 incomplete refactoring,3
+Deepseek v3.2,ScribbleTool,point,Type-2(c),Yes,Yes,Yes,1 direct clone removel,2
+Deepseek v3.2,URLTool,beginEdit,Type-3(b),Yes,Yes,Yes,3 incomplete refactoring,no
+Deepseek v3.2,NodeFigure,drawBorder,Type-3(b),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,PertFigure,drawBorder,Type-3(b),Yes,Yes,Yes,1 incomlpete refactoring,2
+Deepseek v3.2,BufferedUpdateStrategy,draw,Type-2(d),Yes,Yes,Yes,2 fragmentation of logic,3
+Deepseek v3.2,ChangeConnectionHandle,findConnectableFigure,Type-3(b),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,FigureAndEnumerator,nextFigure,Type-1(a),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,HandleAndEnumerator,nextHandle,Type-1(a),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,LocatorConnector,displayBox,Type-1(a),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,LocatorHandle,getCursor,Type-1(b),Yes,Yes,Yes,1 incomlpete refactoring,2
+Deepseek v3.2,StandardFigureSelection,getData,Type-1(b),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,ToggleGridCommand,execute,Type-1(c),Yes,Yes,Yes,3 incomlpete refactoring,no
+Deepseek v3.2,CommandMenu,actionPerformed,Type-2(d),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,PaletteLayout,layoutContainer,Type-2(c),yes,yes,yes,1 incomlpete refactoring,2
+Deepseek v3.2,SerializationStorageFormat,restore,Type-1(c),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,StandardVersionControlStrategy,assertCompatibleVersion,Type-1(c),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,RoundRectangleGeometricAdapter,getShape,Type-2(a),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,ScalingGraphics,scaledShape,Type-2(d),Yes,Yes,Yes,3 incomplete refactoring,no
+Deepseek v3.2,ZoomDrawingView,setScale,Type-2(d),Yes,Yes,Yes,1 incomlpete refactoring,2
+Deepseek v3.2,CTXCommandMenu,checkEnabled,Type-2(a),Yes,Yes,Yes,Yes,1
+Deepseek v3.2,MySelectionTool,mouseDown,Type-2(b),Yes,Yes,Yes,3 incomplete refactoring,no
+Deepseek v3.2,PatternPainter,drawPattern,Type-2(c),yes,yes,yes,yes,1
+Deepseek v3.2,SelectAreaTracker,drawXORRect,Type-2(a),Yes,Yes,Yes,1 incomlpete refactoring,2
+Deepseek v3.2,Bounds,intersectsBounds,Type-2(a),Yes,Yes,Yes,3 incomplete refactoring,no
+,,,,,,,,
+Gemini 3 pro,helper.java,getDrawingView,Type 2(b),Yes,Yes,Yes,3 call based substitution,no
+Gemini 3 pro,drawapplet,init,Type 1(a),Yes,Yes,Yes,3 call based substitution,no
+Gemini 3 pro,FigureAttributeConstant,addConstant,Type 1(a),Yes,Yes,Yes,"2 direct clone removel, call-based substitution",no
+Gemini 3 pro,drawapplet,createAttributeConstant,Type 1(a),Yes,Yes,Yes,3 call based substitution,no
+Gemini 3 pro,nothingapplet,createTools,Type 1(a),Yes,Yes,Yes,3 incomplete refactoring,no
+Gemini 3 pro,CompositeFigureCreationTool,mouseDown,Type 1(b),Yes,Yes,Yes,Yes,1
+Gemini 3 pro,ChopDiamondConnector,chop,Type 1(b),Yes,Yes,Yes,Yes,1
+Gemini 3 pro,MiniMapDesktop,createLeftComponent,Type 1(b),Yes,Yes,Yes,Yes,1
+Gemini 3 pro,Animator,run,Type 1(b),Yes,Yes,Yes,3 incomplete refactoring,no
+Gemini 3 pro,CTXWindowMenu,buildChildMenus,Type 1(c),Yes,Yes,Yes,incomplete refactoring,2
+Gemini 3 pro,ColorMap,colorIndex,Type 1(c),Yes,Yes,Yes,Yes,1
+Gemini 3 pro,BouncingDrawing,animationStep,Type 1(c),Yes,Yes,Yes,call based substitution,2
+Gemini 3 pro,PertDependency,handleConnect,Type 1(c),Yes,Yes,Yes,Yes,1
+Gemini 3 pro,AutoscrollHelper,getAutoscrollInsets,Type 2(a),Yes,Yes,Yes,Yes,1
+Gemini 3 pro,Geom ,direction,Type 2(a),Yes,Yes,Yes,call based substitution,2
+Gemini 3 pro,JHDDropTargetListener,dragOver,Type 2(a),Yes,Yes,Yes,Yes,1
+Gemini 3 pro,StandardLayouter,layout,Type 2(a),Yes,Yes,Yes,Yes,1
+Gemini 3 pro,LineConnection,basicMoveBy,Type 2(b),Yes,Yes,Yes,3 incomplete refactoring,no
+Gemini 3 pro,Triangle Figure,rotate,Type 2(b),Yes,Yes,Yes,3 delegation,no
+Gemini 3 pro,SplitPaneDesktop,removeFromDesktop,Type 2(b),Yes,Yes,Yes,Yes,1
+Gemini 3 pro,DNDHelper,createDragGestureRecognizer,Type-3(e),Yes,Yes,Yes,3 incomplete refactoring,no
+Gemini 3 pro,DragNDropTool,setCursor,Type-3(c),Yes,Yes,Yes,3 incomplete refactoring,no
+Gemini 3 pro,JHDDragSourceListener,dragEnter,Type-3(e),Yes,Yes,yes,1 incomlpete refactoring,2
+Gemini 3 pro,ColorContentProducer,read,Type-3(c),Yes,Yes,Yes,3 incomplete refactoring,no
+Gemini 3 pro,CustomToolBar,activateTools,Type-3(d),Yes,Yes,Yes,2 incomplete refactoring,3
+Gemini 3 pro,FloatingTextArea,endOverlay,Type-3(c),Yes,Yes,Yes,1 incomlpete refactoring,2
+Gemini 3 pro,MiniMapView,paint,Type-3(c),Yes,Yes,Yes,Yes,1
+Gemini 3 pro,PolygonFigure,basicDisplayBox,Type-3(c),Yes,Yes,Yes,Yes ,1
+Gemini 3 pro,SimpleLayouter,calculateLayout,Type-3(c),Yes,Yes,Yes,Yes,1
+Gemini 3 pro,DragTracker,mouseDrag,Type-3(e),Yes,Yes,Yes,2 incomplete refactoring,3
+Gemini 3 pro,JPanelDesktop,createContents,Type-3(a),Yes,Yes,Yes,"direct clone removel, call based substitution",3
+Gemini 3 pro,MDI_DrawApplication,newView,Type-3(a),Yes,Yes,Yes,Yes,1
+Gemini 3 pro,PolygonTool,deactivate,Type-3(a),Yes,Yes,Yes,3 incomplete refactoring,no
+Gemini 3 pro,SVGStorageFormat,store,Type-3(a),Yes,Yes,Yes,Yes,1
+Gemini 3 pro,TriangleRotationHandle,getOrigin,Type-3(d),Yes,Yes,Yes,Yes ,1
+Gemini 3 pro,ElbowHandle,invokeStep,Type-3(d),Yes,Yes,Yes,2 incomplete refactoring,3
+Gemini 3 pro,ScribbleTool,point,Type-2(c),Yes,Yes,Yes,3 call based substitution,no
+Gemini 3 pro,URLTool,beginEdit,Type-3(b),Yes,Yes,Yes,3 incomplete refactoring,no
+Gemini 3 pro,NodeFigure,drawBorder,Type-3(b),Yes,Yes,Yes,Yes,1
+Gemini 3 pro,PertFigure,drawBorder,Type-3(b),Yes,Yes,Yes,1 incomlpete refactoring,2
+Gemini 3 pro,BufferedUpdateStrategy,draw,Type-2(d),Yes,Yes,Yes,3 incomplete refactoring,no
+Gemini 3 pro,ChangeConnectionHandle,findConnectableFigure,Type-3(b),Yes,Yes,Yes,Yes,1
+Gemini 3 pro,FigureAndEnumerator,nextFigure,Type-1(a),Yes,Yes,Yes,Yes,1
+Gemini 3 pro,HandleAndEnumerator,nextHandle,Type-1(a),Yes,Yes,Yes,Yes,1
+Gemini 3 pro,LocatorConnector,displayBox,Type-1(a),Yes,Yes,Yes,Yes,1
+Gemini 3 pro,LocatorHandle,getCursor,Type-1(b),Yes,Yes,Yes,2 incomplete refactoring,3
+Gemini 3 pro,StandardFigureSelection,getData,Type-1(b),Yes,Yes,Yes,3 incomplete refactoring,no
+Gemini 3 pro,ToggleGridCommand,execute,Type-1(c),Yes,Yes,Yes,3 incomplete refactoring,no
+Gemini 3 pro,CommandMenu,actionPerformed,Type-2(d),Yes,Yes,Yes,1 incomlpete refactoring,2
+Gemini 3 pro,PaletteLayout,layoutContainer,Type-2(c),Yes,Yes,Yes,Yes,1
+Gemini 3 pro,SerializationStorageFormat,restore,Type-1(c),Yes,Yes,Yes,Yes,1
+Gemini 3 pro,StandardVersionControlStrategy,assertCompatibleVersion,Type-1(c),Yes,Yes,Yes,Yes,1
+Gemini 3 pro,RoundRectangleGeometricAdapter,getShape,Type-2(a),Yes,Yes,Yes,Yes,1
+Gemini 3 pro,ScalingGraphics,scaledShape,Type-2(d),Yes,Yes,Yes,3 incomplete refactoring,no
+Gemini 3 pro,ZoomDrawingView,setScale,Type-2(d),Yes,Yes,Yes,3 incomplete refactoring,no
+Gemini 3 pro,CTXCommandMenu,checkEnabled,Type-2(a),Yes,Yes,Yes,Yes,1
+Gemini 3 pro,MySelectionTool,mouseDown,Type-2(b),Yes,Yes,Yes,3 incomplete refactoring,no
+Gemini 3 pro,PatternPainter,drawPattern,Type-2(c),Yes,Yes,Yes,Yes ,1
+Gemini 3 pro,SelectAreaTracker,drawXORRect,Type-2(a),Yes,Yes,Yes,"2 call based substitution, 1 incomplete refactoring",no
+Gemini 3 pro,Bounds,intersectsBounds,Type-2(a),Yes,Yes,Yes,"2 call based substitution, 1 delegation",no
+,,,,,,,,
+GPT-5.2,helper.java,getDrawingView,Type 2(b),Yes,Yes,Yes,Yes,1
+GPT-5.2,drawapplet,init,Type 1(a),Yes,Yes,Yes,Yes,1
+GPT-5.2,FigureAttributeConstant,addConstant,Type 1(a),Yes,Yes,Yes,Yes,1
+GPT-5.2,drawapplet,createAttributeConstant,Type 1(a),Yes,Yes,Yes,Yes,1
+GPT-5.2,nothingapplet,createTools,Type 1(a),Yes,Yes,Yes,Yes,1
+GPT-5.2,CompositeFigureCreationTool,mouseDown,Type 1(b),Yes,Yes,Yes,Yes,1
+GPT-5.2,ChopDiamondConnector,chop,Type 1(b),Yes,Yes,Yes,Yes,1
+GPT-5.2,MiniMapDesktop,createLeftComponent,Type 1(b),Yes,Yes,Yes,Yes,1
+GPT-5.2,Animator,run,Type 1(b),Yes,Yes,Yes,Yes,1
+GPT-5.2,CTXWindowMenu,buildChildMenus,Type 1(c),Yes,Yes,Yes,Yes,1
+GPT-5.2,ColorMap,colorIndex,Type 1(c),Yes,Yes,Yes,Yes,1
+GPT-5.2,BouncingDrawing,animationStep,Type 1(c),Yes,Yes,Yes,Yes,1
+GPT-5.2,PertDependency,handleConnect,Type 1(c),Yes,Yes,Yes,Yes,1
+GPT-5.2,AutoscrollHelper,getAutoscrollInsets,Type 2(a),Yes,Yes,Yes,Yes,1
+GPT-5.2,Geom ,direction,Type 2(a),Yes,Yes,Yes,2 incomlpete refactoring,3
+GPT-5.2,JHDDropTargetListener,dragOver,Type 2(a),Yes,Yes,Yes,Yes,1
+GPT-5.2,StandardLayouter,layout,Type 2(a),Yes,Yes,Yes,Yes,1
+GPT-5.2,LineConnection,basicMoveBy,Type 2(b),Yes,Yes,Yes,Yes,1
+GPT-5.2,Triangle Figure,rotate,Type 2(b),Yes,Yes,Yes,Yes,1
+GPT-5.2,SplitPaneDesktop,removeFromDesktop,Type 2(b),Yes,Yes,Yes,Yes,1
+GPT-5.2,DNDHelper,createDragGestureRecognizer,Type-3(e),Yes,Yes,Yes,3 incomplete refactoring,no
+GPT-5.2,DragNDropTool,setCursor,Type-3(c),Yes,Yes,Yes,1 incomlpete refactoring,2
+GPT-5.2,JHDDragSourceListener,dragEnter,Type-3(e),yes,yes,yes,3 incomplete refactoring,no
+GPT-5.2,ColorContentProducer,read,Type-3(c),Yes,Yes,Yes,Yes,1
+GPT-5.2,CustomToolBar,activateTools,Type-3(d),Yes,Yes,Yes,Yes,1
+GPT-5.2,FloatingTextArea,endOverlay,Type-3(c),Yes,Yes,Yes,Yes,1
+GPT-5.2,MiniMapView,paint,Type-3(c),Yes,Yes,Yes,1 incomlpete refactoring,2
+GPT-5.2,PolygonFigure,basicDisplayBox,Type-3(c),Yes,yes,yes,yes,1
+GPT-5.2,SimpleLayouter,calculateLayout,Type-3(c),Yes,Yes,Yes,Yes,1
+GPT-5.2,DragTracker,mouseDrag,Type-3(e),Yes,Yes,Yes,3 incomplete refactoring,no
+GPT-5.2,JPanelDesktop,createContents,Type-3(a),Yes,Yes,Yes,Yes,1
+GPT-5.2,MDI_DrawApplication,newView,Type-3(a),Yes,Yes,Yes,Yes,1
+GPT-5.2,PolygonTool,deactivate,Type-3(a),Yes,Yes,Yes,3 incomplete refactoring,no
+GPT-5.2,SVGStorageFormat,store,Type-3(a),Yes,Yes,Yes,Yes,1
+GPT-5.2,TriangleRotationHandle,getOrigin,Type-3(d),yes,yes,yes,yes,1
+GPT-5.2,ElbowHandle,invokeStep,Type-3(d),yes,yes,yes,direct clone removel,2
+GPT-5.2,ScribbleTool,point,Type-2(c),Yes,Yes,Yes,Yes,1
+GPT-5.2,URLTool,beginEdit,Type-3(b),Yes,Yes,Yes,Yes,1
+GPT-5.2,NodeFigure,drawBorder,Type-3(b),Yes,Yes,Yes,Yes,1
+GPT-5.2,PertFigure,drawBorder,Type-3(b),Yes,Yes,Yes,Yes,1
+GPT-5.2,BufferedUpdateStrategy,draw,Type-2(d),Yes,Yes,Yes,Yes,1
+GPT-5.2,ChangeConnectionHandle,findConnectableFigure,Type-3(b),Yes,Yes,Yes,Yes,1
+GPT-5.2,FigureAndEnumerator,nextFigure,Type-1(a),Yes,Yes,Yes,Yes,1
+GPT-5.2,HandleAndEnumerator,nextHandle,Type-1(a),Yes,Yes,Yes,Yes,1
+GPT-5.2,LocatorConnector,displayBox,Type-1(a),Yes,Yes,Yes,Yes,1
+GPT-5.2,LocatorHandle,getCursor,Type-1(b),Yes,Yes,Yes,Yes,1
+GPT-5.2,StandardFigureSelection,getData,Type-1(b),Yes,Yes,Yes,3 incomplete refactoring,no
+GPT-5.2,ToggleGridCommand,execute,Type-1(c),Yes,Yes,Yes,3 incomplete refactoring,no
+GPT-5.2,CommandMenu,actionPerformed,Type-2(d),Yes,Yes,Yes,Yes,1
+GPT-5.2,PaletteLayout,layoutContainer,Type-2(c),yes,yes,yes,yes,1
+GPT-5.2,SerializationStorageFormat,restore,Type-1(c),Yes,Yes,Yes,Yes,1
+GPT-5.2,StandardVersionControlStrategy,assertCompatibleVersion,Type-1(c),Yes,Yes,Yes,Yes,1
+GPT-5.2,RoundRectangleGeometricAdapter,getShape,Type-2(a),Yes,Yes,Yes,Yes,1
+GPT-5.2,ScalingGraphics,scaledShape,Type-2(d),Yes,Yes,Yes,1 incomlpete refactoring,2
+GPT-5.2,ZoomDrawingView,setScale,Type-2(d),Yes,Yes,Yes,Yes,1
+GPT-5.2,CTXCommandMenu,checkEnabled,Type-2(a),Yes,Yes,Yes,Yes,1
+GPT-5.2,MySelectionTool,mouseDown,Type-2(b),Yes,Yes,Yes,3 incomplete refactoring,no
+GPT-5.2,PatternPainter,drawPattern,Type-2(c),Yes,yes,yes,yes,1
+GPT-5.2,SelectAreaTracker,drawXORRect,Type-2(a),Yes,Yes,Yes,Yes,1
+GPT-5.2,Bounds,intersectsBounds,Type-2(a),Yes,Yes,Yes,Yes,1
+,,,,,,,,
+Claude Opus 4.6,helper.java,getDrawingView,Type 2(b),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,drawapplet,init,Type 1(a),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,FigureAttributeConstant,addConstant,Type 1(a),Yes,Yes,Yes,3 direct clone removel,no
+Claude Opus 4.6,drawapplet,createAttributeConstant,Type 1(a),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,nothingapplet,createTools,Type 1(a),Yes,Yes,Yes,3 incomplete refactoring,no
+Claude Opus 4.6,CompositeFigureCreationTool,mouseDown,Type 1(b),Yes,Yes,Yes,direct clone removel,2
+Claude Opus 4.6,ChopDiamondConnector,chop,Type 1(b),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,MiniMapDesktop,createLeftComponent,Type 1(b),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,Animator,run,Type 1(b),Yes,Yes,Yes,3 incomplete refactoring,no
+Claude Opus 4.6,CTXWindowMenu,buildChildMenus,Type 1(c),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,ColorMap,colorIndex,Type 1(c),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,BouncingDrawing,animationStep,Type 1(c),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,PertDependency,handleConnect,Type 1(c),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,AutoscrollHelper,getAutoscrollInsets,Type 2(a),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,Geom ,direction,Type 2(a),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,JHDDropTargetListener,dragOver,Type 2(a),Yes,Yes,Yes,1 incomlpete refactoring,2
+Claude Opus 4.6,StandardLayouter,layout,Type 2(a),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,LineConnection,basicMoveBy,Type 2(b),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,Triangle Figure,rotate,Type 2(b),Yes,Yes,Yes,3 incomplete refactoring,no
+Claude Opus 4.6,SplitPaneDesktop,removeFromDesktop,Type 2(b),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,DNDHelper,createDragGestureRecognizer,Type-3(e),Yes,Yes,Yes,3 incomplete refactoring,no
+Claude Opus 4.6,DragNDropTool,setCursor,Type-3(c),Yes,Yes,Yes,3 incomplete refactoring,no
+Claude Opus 4.6,JHDDragSourceListener,dragEnter,Type-3(e),Yes,Yes,Yes,3 incomplete refactoring,no
+Claude Opus 4.6,ColorContentProducer,read,Type-3(c),Yes,Yes,Yes,3 incomplete refactoring,no
+Claude Opus 4.6,CustomToolBar,activateTools,Type-3(d),Yes,Yes,Yes,3 incomplete refactoring,no
+Claude Opus 4.6,FloatingTextArea,endOverlay,Type-3(c),Yes,Yes,Yes,3 incomplete refactoring,no
+Claude Opus 4.6,MiniMapView,paint,Type-3(c),Yes,Yes,Yes,3 incomplete refactoring,no
+Claude Opus 4.6,PolygonFigure,basicDisplayBox,Type-3(c),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,SimpleLayouter,calculateLayout,Type-3(c),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,DragTracker,mouseDrag,Type-3(e),Yes,Yes,Yes,3 incomplete refactoring,no
+Claude Opus 4.6,JPanelDesktop,createContents,Type-3(a),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,MDI_DrawApplication,newView,Type-3(a),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,PolygonTool,deactivate,Type-3(a),Yes,Yes,Yes,3 incomplete refactoring,no
+Claude Opus 4.6,SVGStorageFormat,store,Type-3(a),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,TriangleRotationHandle,getOrigin,Type-3(d),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,ElbowHandle,invokeStep,Type-3(d),Yes,Yes,yes,3 incomplete refactoring,no
+Claude Opus 4.6,ScribbleTool,point,Type-2(c),Yes,Yes,Yes,"2 direct clone removel, 1 call-based substitution",no
+Claude Opus 4.6,URLTool,beginEdit,Type-3(b),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,NodeFigure,drawBorder,Type-3(b),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,PertFigure,drawBorder,Type-3(b),Yes,Yes,Yes,3 incomplete refactoring,no
+Claude Opus 4.6,BufferedUpdateStrategy,draw,Type-2(d),Yes,Yes,Yes,3 incomplete refactoring,no
+Claude Opus 4.6,ChangeConnectionHandle,findConnectableFigure,Type-3(b),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,FigureAndEnumerator,nextFigure,Type-1(a),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,HandleAndEnumerator,nextHandle,Type-1(a),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,LocatorConnector,displayBox,Type-1(a),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,LocatorHandle,getCursor,Type-1(b),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,StandardFigureSelection,getData,Type-1(b),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,ToggleGridCommand,execute,Type-1(c),Yes,Yes,Yes,3 incomplete refactoring,no
+Claude Opus 4.6,CommandMenu,actionPerformed,Type-2(d),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,PaletteLayout,layoutContainer,Type-2(c),Yes,Yes,Yes,Yes ,1
+Claude Opus 4.6,SerializationStorageFormat,restore,Type-1(c),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,StandardVersionControlStrategy,assertCompatibleVersion,Type-1(c),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,RoundRectangleGeometricAdapter,getShape,Type-2(a),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,ScalingGraphics,scaledShape,Type-2(d),Yes,Yes,Yes,3 direct clone removel,no
+Claude Opus 4.6,ZoomDrawingView,setScale,Type-2(d),Yes,Yes,Yes,3 incomplete refactoring,no
+Claude Opus 4.6,CTXCommandMenu,checkEnabled,Type-2(a),Yes,Yes,Yes,Yes,1
+Claude Opus 4.6,MySelectionTool,mouseDown,Type-2(b),Yes,Yes,Yes,3 incomplete refactoring,no
+Claude Opus 4.6,PatternPainter,drawPattern,Type-2(c),Yes,Yes,Yes,Yes ,1
+Claude Opus 4.6,SelectAreaTracker,drawXORRect,Type-2(a),Yes,Yes,Yes,"2 call based substitution, 1 direct clone removel",no
+Claude Opus 4.6,Bounds,intersectsBounds,Type-2(a),Yes,Yes,Yes,Yes,1
