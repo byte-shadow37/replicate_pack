@@ -1,6 +1,6 @@
 ﻿Single LLM,Detects Clones?,Compiles?,EVOSUITE Tests Pass?,Outcome: Correct,Outcome: Issues 
 GPT-3.5,0,0,0,0,0
-Claude Opus 4.6 ,100%,100%,100%,63.33%,36.67%
-Deepseek v3.2,100%,100%,100%,70.00%,30%
-GPT-5.2 ,100%,100%,100%,88.33%,11.67%
-Gemini 3 Pro,100%,100%,100%,63.33%,36.67%
+Claude Opus 4.6 ,100%,100%,100%,72.00%,28.00%
+Deepseek v3.2,99%,100%,100%,77.00%,23%
+GPT-5.2 ,100%,100%,100%,79.00%,21.00%
+Gemini 3 Pro,100%,100%,100%,68.00%,32.00%
