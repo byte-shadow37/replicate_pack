@@ -301,7 +301,7 @@ GPT-5.2,TextAreaFigure,setFont,Type-3(d),yes,yes,yes,yes,1
 GPT-5.2,TextAreaTool,mouseUp,Type-3(d),yes,yes,yes,yes,1
 GPT-5.2,ImageFigure,imageUpdate,Type-3(e),yes,yes,yes,3 incomplete refactoring,no
 GPT-5.2,PolyLineFigure,displayBox,Type-3(e),yes,yes,yes,3 did not refactor this clone,no
-GPT-5.2,,,,,,,,
+,,,,,,,,
 ,,,,,,,,
 Claude Opus 4.6,helper.java,getDrawingView,Type 2(b),Yes,Yes,Yes,Yes,1
 Claude Opus 4.6,drawapplet,init,Type 1(a),Yes,Yes,Yes,Yes,1
