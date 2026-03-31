@@ -181,50 +181,7 @@ GPT-5.2,MySelectionTool,mouseDown,Type-2(b),Yes,Yes,Yes,3 incomplete refactoring
 GPT-5.2,PatternPainter,drawPattern,Type-2(c),Yes,yes,yes,yes,1
 GPT-5.2,SelectAreaTracker,drawXORRect,Type-2(a),Yes,Yes,Yes,Yes,1
 GPT-5.2,Bounds,intersectsBounds,Type-2(a),Yes,Yes,Yes,Yes,1
-<<<<<<< HEAD
-GPT-5.2,drawapplet,setupAttributes,Type-1(a),yes,yes,yes,1 did not refactor this clone,2
-GPT-5.2,drawapplication,promptOpen,Type-1(a),yes,yes,yes,yes,1
-GPT-5.2,DNDHelper,createDropTarget,Type-1(a),yes,yes,yes,yes,1
-GPT-5.2,DragNDropTool,mouseUp,Type-1(a),yes,yes,yes,yes,1
-GPT-5.2,HTMLTextAreaFigure,draw,Type-1(a),yes,yes,yes,3 did not refactor this clone,no
-GPT-5.2,JHDDragSourceListener,dragDropEnd,Type-1(b),yes,yes,yes,yes,1
-GPT-5.2,JHDDropTargetListener,supportDropTargetDragEvent,Type-1(b),yes,yes,yes,3 did not refactor this clone,no
-GPT-5.2,AttributeFigureContentProducer,getContent,Type-1(b),yes,yes,yes,yes,1
-GPT-5.2,ColorContentProducer,getContent,Type-1(b),yes,yes,yes,yes,1
-GPT-5.2,ContentProducerRegistry,getSuperClassContentProducer,Type-1(c),yes,yes,yes,"2 incomplete refactoring, 1 call-based clone substitution",no
-GPT-5.2,DisposableResourceManagerFactory,initManager,Type-1(c),yes,yes,yes,3 did not refactor this clone,no
-GPT-5.2,FigureDataContentProducer,getContent,Type-1(c),yes,yes,yes,yes,1
-GPT-5.2,HTMLContentProducer,getHTMLFontSizeEquivalent,Type-1(c),yes,yes,yes,yes,1
-GPT-5.2,ResourceContentProducer,getContent,Type-2(a),yes,yes,yes,3 incomplete refactoring,no
-GPT-5.2,URLContentProducer,getContent,Type-2(a),yes,yes,yes,yes,1
-GPT-5.2,AreaTracker,drawXORRect,Type-2(a),yes,yes,yes,yes,1
-GPT-5.2,DoubleBufferImage,getGraphics,Type-2(a),yes,yes,yes,yes,1
-GPT-5.2,MiniMapZoomableView,getInverseSubjectTransform,Type-2(a),yes,yes,yes,3 incomplete refactoring,no
-GPT-5.2,ScalingGraphics,clipRect,Type-2(b),yes,yes,yes,3 did not refactor this clone,no
-GPT-5.2,ZoomDrawingView,zoom,Type-2(b),yes,yes,yes,1 did not refactor this clone,2
-GPT-5.2,ZoomDrawingView,centralize,Type-2(b),yes,yes,yes,3 did not refactor this clone,no
-GPT-5.2,AutoscrollHelper,autoscroll,Type-2(c),yes,yes,yes,yes,1
-GPT-5.2,CTXCommandMenu,actionPerformed,Type-2(c),yes,yes,yes,1 did not refactor this clone,2
-GPT-5.2,CustomSelectionTool,mouseDown,Type-2(d),yes,yes,yes,yes,1
-GPT-5.2,FloatingTextArea,setBounds,Type-2(d),yes,yes,yes,3 did not refactor this clone,no
-GPT-5.2,MiniMapView,getViewRectangle,Type-2(d),yes,yes,yes,3 did not refactor this clone,no
-GPT-5.2,NestedCreationTool,mouseDown,Type-3(a),yes,yes,yes,yes,1
-GPT-5.2,StandardLayouter,calculateLayout,Type-3(a),yes,yes,yes,yes,1
-GPT-5.2,WindowMenu,buildChildMenus,Type-3(a),yes,yes,yes,1 incomplete refactoring,2
-GPT-5.2,PolygonTool,addPoint,Type-3(b),yes,yes,yes,"2 did not refactor this clone, 1 call based substitution",no
-GPT-5.2,AbstractLineDecoration,read,Type-3(b),yes,yes,yes,yes,1
-GPT-5.2,BorderTool,mouseDown,Type-3(b),yes,yes,yes,yes,1
-GPT-5.2,PolygonFigure,handles,Type-3(c),yes,yes,yes,yes,1
-GPT-5.2,DesktopEventService,getDrawingViews,Type-3(c),yes,yes,yes,yes,1
-GPT-5.2,ZoomCommand,zoomView,Type-3(c),yes,yes,yes,yes,1
-GPT-5.2,ZoomTool,mouseDown,Type-3(d),yes,yes,yes,3 incomplete refactoring,no
-GPT-5.2,TextAreaFigure,setFont,Type-3(d),yes,yes,yes,yes,1
-GPT-5.2,TextAreaTool,mouseUp,Type-3(d),yes,yes,yes,yes,1
-GPT-5.2,ImageFigure,imageUpdate,Type-3(e),yes,yes,yes,3 incomplete refactoring,no
-GPT-5.2,PolyLineFigure,displayBox,Type-3(e),yes,yes,yes,3 did not refactor this clone,no
 ,,,,,,,,
-=======
->>>>>>> parent of 964c8d7 (update)
 ,,,,,,,,
 Claude Opus 4.6,helper.java,getDrawingView,Type 2(b),Yes,Yes,Yes,Yes,1
 Claude Opus 4.6,drawapplet,init,Type 1(a),Yes,Yes,Yes,Yes,1
