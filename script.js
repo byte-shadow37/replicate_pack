@@ -106,6 +106,94 @@ function fillSelect(selectEl, values){
   if(values.includes(cur)) selectEl.value = cur;
 }
 
+function percentage(part, total){
+  if(!total) return 0;
+  return Math.round((part / total) * 100);
+}
+
+function formatPercent(part, total){
+  return `${percentage(part, total)}%`;
+}
+
+function isCorrectFromIteration(value){
+  const raw = String(value ?? "").trim().toLowerCase();
+  if(!raw) return false;
+  if(raw === "no") return false;
+
+  const num = Number(raw);
+  return !Number.isNaN(num);
+}
+
+function renderResultsFigure(rows){
+  const statsEl = $("#resultsFigureStats");
+  const barsEl = $("#resultsFigureBars");
+  if(!statsEl || !barsEl) return;
+
+  const total = rows.length;
+  const detectPass = rows.filter(r => normalizeBool(r["Detect"]) === true).length;
+  const compilePass = rows.filter(r => normalizeBool(r["Compile"]) === true).length;
+  const correctPass = rows.filter(r => isCorrectFromIteration(r["Success Iteration Number"])).length;
+
+  statsEl.innerHTML = `
+    <div class="results-figure__stat">
+      <span class="results-figure__label">Rows</span>
+      <strong class="results-figure__value">${total}</strong>
+    </div>
+    <div class="results-figure__stat">
+      <span class="results-figure__label">Detect Pass</span>
+      <strong class="results-figure__value">${formatPercent(detectPass, total)}</strong>
+    </div>
+    <div class="results-figure__stat">
+      <span class="results-figure__label">Compile Pass</span>
+      <strong class="results-figure__value">${formatPercent(compilePass, total)}</strong>
+    </div>
+    <div class="results-figure__stat">
+      <span class="results-figure__label">Correct Pass</span>
+      <strong class="results-figure__value">${formatPercent(correctPass, total)}</strong>
+    </div>
+  `;
+
+  if(!rows.length){
+    barsEl.innerHTML = '<div class="results-figure__empty">No rows match the current filters.</div>';
+    return;
+  }
+
+  const byModel = new Map();
+  rows.forEach((row) => {
+    const model = String(row["Model"] ?? "").trim() || "Unknown";
+    const current = byModel.get(model) || {total:0, correct:0};
+    current.total += 1;
+    if(isCorrectFromIteration(row["Success Iteration Number"])){
+      current.correct += 1;
+    }
+    byModel.set(model, current);
+  });
+
+  const modelBars = Array.from(byModel.entries())
+    .map(([model, stats]) => ({
+      model,
+      total: stats.total,
+      correct: stats.correct,
+      rate: percentage(stats.correct, stats.total)
+    }))
+    .sort((a, b) => b.rate - a.rate || b.total - a.total || a.model.localeCompare(b.model));
+
+  barsEl.innerHTML = modelBars.map(({model, total: count, correct, rate}) => `
+    <div class="results-figure__bar">
+      <div class="results-figure__bar-value">${rate}%</div>
+      <div class="results-figure__bar-stage">
+        <div
+          class="results-figure__fill"
+          style="--bar-height:${Math.max(rate, 4)}%"
+          title="${escapeHtml(model)}: ${correct}/${count} correct"
+        ></div>
+      </div>
+      <div class="results-figure__bar-meta">${correct}/${count} correct</div>
+      <div class="results-figure__bar-label">${escapeHtml(model)}</div>
+    </div>
+  `).join("");
+}
+
 // =========================
 // Main Results table (MultiAgent / SingleLLM / ablations)
 // =========================
@@ -151,6 +239,7 @@ function applyFilters(){
   });
 
   renderTable();
+  renderResultsFigure(viewRows);
 }
 
 function sortBy(key){
@@ -359,5 +448,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   initControls();
   initSorting();
   initFooter();
-  await loadResultsCsv();
+
+  const scenarioFilter = $("#scenarioFilter");
+  const initialScenario = (scenarioFilter?.value || "MultiAgent").trim() || "MultiAgent";
+  if(scenarioFilter) scenarioFilter.value = initialScenario;
+
+  await loadResultsCsv(initialScenario);
 });

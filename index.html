@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Replication Package — title</title>
+  <title>Replication Package — CLONE: Agentic LLM Just-in-Time Refactoring of Code Clones in the IDE</title>
   <meta name="description" content="Replication package website: code, datasets, and instructions to reproduce results for the paper." />
   <link rel="stylesheet" href="./styles.css" />
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
@@ -17,13 +17,12 @@
         <div class="brand__mark" aria-hidden="true">⧉</div>
         <div class="brand__text">
           <div class="brand__title">Replication Package</div>
-          <div class="brand__subtitle">Title</div>
+          <div class="brand__subtitle">CLONE: Agentic LLM Just-in-Time Refactoring of Code Clones in the IDE</div>
         </div>
       </div>
 
       <nav class="nav" aria-label="Primary">
         <a href="#artifacts">Artifacts</a>
-        <a href="#reproduce">Reproduce</a>
         <a href="#results">Results</a>
         <button id="themeToggle" class="btn btn--ghost" type="button" aria-label="Toggle theme">
           <span class="btn__icon" aria-hidden="true">◐</span>
@@ -36,10 +35,10 @@
   <main id="main" class="container" role="main">
     <section class="hero" aria-labelledby="heroTitle">
       <div class="hero__left">
-        <h1 id="heroTitle">Replication package for Title</h1>
+        <h1 id="heroTitle">Replication package for CLONE: Agentic LLM Just-in-Time Refactoring of Code Clones in the IDE</h1>
         <p class="lead">
           This website hosts the artifacts to reproduce the experiments in
-          <span class="mono">“Title”</span>.
+          <span class="mono">CLONE: Agentic LLM Just-in-Time Refactoring of Code Clones in the IDE</span>.
         </p>
 
         <div class="cta">
@@ -75,20 +74,16 @@ focuses on improving design and coding quality while fixing design
 flaws. The ‘Extract Method’ refactoring is especially popular for
 merging duplicate code segments into a single method. Several
 studies have investigated methods to recommend ‘Extract Method’
-refactoring opportunities using techniques such as program slic-
-ing, program dependency graph analysis, change history analysis,
-structural similarity, and feature extraction. Yet, existing refactor-
-ing tools require developers to interrupt their workflow to address
+refactoring opportunities using techniques such as program slicing, program dependency graph analysis, change history analysis,
+structural similarity, and feature extraction. Yet, existing refactoring tools require developers to interrupt their workflow to address
 them. In this paper, we presents Clone Learning and Optimization
 with Neural Engines (CLONE), a novel feature of the IntelliJ IDEA
 plugin for just-in-time clone refactoring that instantly detects and
-suggest the refactoring of code clones, as soon as they are intro-
-duced by the developer, through the use of large language models
+suggest the refactoring of code clones, as soon as they are introduced by the developer, through the use of large language models
 (LLMs) of the developer’s choosing and a multi-agent architecture.
 The multi-agent system comprises a Detection Agent, a Refactoring
 Agent, a Compilation Agent, and a Testing Agent. The CLONE tool
-gives developers the freedom to use an intuitive, LLM-assisted, non-
-intrusive refactoring method that serves as an alternative to existing
+gives developers the freedom to use an intuitive, LLM-assisted, nonintrusive refactoring method that serves as an alternative to existing
 tools.
       </p>
     </section>
@@ -169,6 +164,34 @@ C:\Users\&lt;you&gt;\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.
         <h2 id="resultsTitle">Results</h2>
       </div>
 
+      <figure class="results-figure card" aria-labelledby="resultsFigureTitle">
+        <div class="results-figure__head">
+          <figcaption id="resultsFigureTitle" class="card__title">Dynamic Bar Chart</figcaption>
+          <p class="card__desc">A live bar chart of correctness rate by model, derived from the iteration column in the currently filtered rows.</p>
+        </div>
+        <div class="results-figure__stats" id="resultsFigureStats" aria-live="polite">
+          <div class="results-figure__stat">
+            <span class="results-figure__label">Rows</span>
+            <strong class="results-figure__value">0</strong>
+          </div>
+          <div class="results-figure__stat">
+            <span class="results-figure__label">Detect Pass</span>
+            <strong class="results-figure__value">0%</strong>
+          </div>
+          <div class="results-figure__stat">
+            <span class="results-figure__label">Compile Pass</span>
+            <strong class="results-figure__value">0%</strong>
+          </div>
+          <div class="results-figure__stat">
+            <span class="results-figure__label">Correct Pass</span>
+            <strong class="results-figure__value">0%</strong>
+          </div>
+        </div>
+        <div id="resultsFigureBars" class="results-figure__bars" aria-label="Correctness rates by model">
+          <div class="results-figure__empty">Loading figure...</div>
+        </div>
+      </figure>
+
       <div class="toolbar" role="region" aria-label="Results table controls">
         <label class="field">
           <span class="field__label">Search</span>
@@ -186,7 +209,7 @@ C:\Users\&lt;you&gt;\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.
           <span class="field__label">Scenario</span>
           <select id="scenarioFilter" class="select">
             <option value="">All</option>
-            <option value="MultiAgent">MultiAgent</option>
+            <option value="MultiAgent" selected>MultiAgent</option>
             <option value="SingleLLM">SingleLLM</option>
           </select>
         </label>
@@ -275,9 +298,7 @@ C:\Users\&lt;you&gt;\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.
         </table>
       </div> -->
 
-      <p class="muted small">
-        Expected CSV columns: Model, File, Clone Method, Clone Type, Deckard Detect, Compile, Test, Usefulness, Precondition Violation.
-      </p>
+      
     </section>
 
     <footer class="footer" role="contentinfo">
