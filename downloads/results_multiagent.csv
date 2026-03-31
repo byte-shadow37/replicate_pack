@@ -11,34 +11,34 @@ Deepseek v3.2,Animator,run,Type 1(b),Yes,no,no,,,incomplete refactoring
 Deepseek v3.2,CTXWindowMenu,buildChildMenus,Type 1(c),Yes,no,1,yes,yes,yes
 Deepseek v3.2,ColorMap,colorIndex,Type 1(c),Yes,no,1,yes,yes,yes
 Deepseek v3.2,BouncingDrawing,animationStep,Type 1(c),Yes,no,1,yes,yes,yes
-Deepseek v3.2,PertDependency,handleConnect,Type 1(c),Yes,no,2,yes,yes,yes
+Deepseek v3.2,PertDependency,handleConnect,Type 1(c),Yes,no,2,yes,yes,incomplete refactoring -> yes
 Deepseek v3.2,AutoscrollHelper,getAutoscrollInsets,Type 2(a),Yes,no,1,yes,yes,yes
 Deepseek v3.2,Geom ,direction,Type 2(a),Yes,no,1,yes,yes,yes
-Deepseek v3.2,JHDDropTargetListener,dragOver,Type 2(a),Yes,no,2,yes,yes,yes
+Deepseek v3.2,JHDDropTargetListener,dragOver,Type 2(a),Yes,no,2,yes,yes,incomplete refactoring -> yes
 Deepseek v3.2,StandardLayouter,layout,Type 2(a),Yes,no,no,,,incomplete refactoring
 Deepseek v3.2,LineConnection,basicMoveBy,Type 2(b),Yes,no,no,,,incomplete refactoring
 Deepseek v3.2,Triangle Figure,rotate,Type 2(b),Yes,no,no,,,incomplete refactoring
 Deepseek v3.2,SplitPaneDesktop,removeFromDesktop,Type 2(b),Yes,no,1,yes,yes,yes
 Deepseek v3.2,DNDHelper,createDragGestureRecognizer,Type-3(e),Yes,no,no,,,incomplete refactoring
-Deepseek v3.2,DragNDropTool,setCursor,Type-3(c),Yes,no,3,yes,yes,yes
+Deepseek v3.2,DragNDropTool,setCursor,Type-3(c),Yes,no,3,yes,yes,2 incomplete refactoring -> yes
 Deepseek v3.2,JHDDragSourceListener,dragEnter,Type-3(e),Yes,no,no,,,incomplete refactoring
 Deepseek v3.2,ColorContentProducer,read,Type-3(c),Yes,no,no,,,incomplete refactoring
 Deepseek v3.2,CustomToolBar,activateTools,Type-3(d),Yes,no,no,,,incomplete refactoring
-Deepseek v3.2,FloatingTextArea,endOverlay,Type-3(c),Yes,no,2,yes,yes,yes
+Deepseek v3.2,FloatingTextArea,endOverlay,Type-3(c),Yes,no,2,yes,yes,incomplete refactoring -> yes
 Deepseek v3.2,MiniMapView,paint,Type-3(c),Yes,no,no,,,incomplete refactoring
 Deepseek v3.2,PolygonFigure,basicDisplayBox,Type-3(c),Yes,no,no,,,incomplete refactoring
-Deepseek v3.2,SimpleLayouter,calculateLayout,Type-3(c),Yes,no,2,yes,yes,yes
+Deepseek v3.2,SimpleLayouter,calculateLayout,Type-3(c),Yes,no,2,yes,yes,incomplete refactoring -> yes
 Deepseek v3.2,DragTracker,mouseDrag,Type-3(e),Yes,no,no,,,3 incomplete refactoring
-Deepseek v3.2,JPanelDesktop,createContents,Type-3(a),Yes,no,2,yes,yes,yes
-Deepseek v3.2,MDI_DrawApplication,newView,Type-3(a),Yes,no,2,yes,yes,yes
+Deepseek v3.2,JPanelDesktop,createContents,Type-3(a),Yes,no,2,yes,yes,incomplete refactoring -> yes
+Deepseek v3.2,MDI_DrawApplication,newView,Type-3(a),Yes,no,2,yes,yes,incomplete refactoring -> yes
 Deepseek v3.2,PolygonTool,deactivate,Type-3(a),Yes,no,no,,,3 incomplete refactoring
 Deepseek v3.2,SVGStorageFormat,store,Type-3(a),Yes,no,no,,,"2 call-based clone substitution, 1 incomplete refactoring"
 Deepseek v3.2,TriangleRotationHandle,getOrigin,Type-3(d),Yes,no,1,yes,yes,yes
-Deepseek v3.2,ElbowHandle,invokeStep,Type-3(d),Yes,no,2,yes,yes,yes
+Deepseek v3.2,ElbowHandle,invokeStep,Type-3(d),Yes,no,2,yes,yes,incomplete refactoring -> yes
 Deepseek v3.2,ScribbleTool,point,Type-2(c),Yes,no,1,yes,yes,yes
 Deepseek v3.2,URLTool,beginEdit,Type-3(b),Yes,no,1,yes,yes,yes
 Deepseek v3.2,NodeFigure,drawBorder,Type-3(b),Yes,no,1,yes,yes,yes
-Deepseek v3.2,PertFigure,drawBorder,Type-3(b),Yes,no,2,yes,yes,yes
+Deepseek v3.2,PertFigure,drawBorder,Type-3(b),Yes,no,2,yes,yes,incomplete refactoring -> yes
 Deepseek v3.2,BufferedUpdateStrategy,draw,Type-2(d),Yes,no,1,yes,yes,yes
 Deepseek v3.2,ChangeConnectionHandle,findConnectableFigure,Type-3(b),Yes,no,1,yes,yes,yes
 Deepseek v3.2,FigureAndEnumerator,nextFigure,Type-1(a),Yes,no,1,yes,yes,yes
@@ -51,55 +51,14 @@ Deepseek v3.2,CommandMenu,actionPerformed,Type-2(d),Yes,no,1,yes,yes,yes
 Deepseek v3.2,PaletteLayout,layoutContainer,Type-2(c),Yes,no,1,yes,yes,yes
 Deepseek v3.2,SerializationStorageFormat,restore,Type-1(c),Yes,no,1,yes,yes,yes
 Deepseek v3.2,StandardVersionControlStrategy,assertCompatibleVersion,Type-1(c),Yes,no,1,yes,yes,yes
-Deepseek v3.2,RoundRectangleGeometricAdapter,getShape,Type-2(a),Yes,no,2,yes,yes,yes
+Deepseek v3.2,RoundRectangleGeometricAdapter,getShape,Type-2(a),Yes,no,2,yes,yes,incomplete refactoring -> yes
 Deepseek v3.2,ScalingGraphics,scaledShape,Type-2(d),Yes,no,no,,,3 incomplete refactoring
 Deepseek v3.2,ZoomDrawingView,setScale,Type-2(d),Yes,no,1,yes,yes,yes
 Deepseek v3.2,CTXCommandMenu,checkEnabled,Type-2(a),Yes,no,1,yes,yes,yes
-Deepseek v3.2,MySelectionTool,mouseDown,Type-2(b),Yes,no,2,yes,yes,yes
+Deepseek v3.2,MySelectionTool,mouseDown,Type-2(b),Yes,no,2,yes,yes,incomplete refactoring -> yes
 Deepseek v3.2,PatternPainter,drawPattern,Type-2(c),Yes,no,1,yes,yes,yes
-Deepseek v3.2,SelectAreaTracker,drawXORRect,Type-2(a),Yes,no,2,yes,yes,yes
+Deepseek v3.2,SelectAreaTracker,drawXORRect,Type-2(a),Yes,no,2,yes,yes,call-based clone substitution -> yes
 Deepseek v3.2,Bounds,intersectsBounds,Type-2(a),Yes,no,no,,,3 incomplete refactoring
-Deepseek v3.2,drawapplet,setupAttributes,Type-1(a),yes,no,1,yes,yes,yes
-Deepseek v3.2,drawapplication,promptOpen,Type-1(a),yes,no,no,,,"2 incomplete refactoring, compialtion error"
-Deepseek v3.2,DNDHelper,createDropTarget,Type-1(a),yes,no,1,yes,yes,yes
-Deepseek v3.2,DragNDropTool,mouseUp,Type-1(a),yes,no,1,yes,yes,yes
-Deepseek v3.2,HTMLTextAreaFigure,draw,Type-1(a),yes,no,1,yes,yes,yes
-Deepseek v3.2,JHDDragSourceListener,dragDropEnd,Type-1(b),yes,no,no,,,did not perform refactoring
-Deepseek v3.2,JHDDropTargetListener,supportDropTargetDragEvent,Type-1(b),yes,no,2,yes,yes,yes
-Deepseek v3.2,AttributeFigureContentProducer,getContent,Type-1(b),yes,no,no,,,clone removal by delegation -> 2 did not perform refactoring 
-Deepseek v3.2,ColorContentProducer,getContent,Type-1(b),yes,no,no,,,3 incomplete refactoring
-Deepseek v3.2,ContentProducerRegistry,getSuperClassContentProducer,Type-1(c),yes,no,1,yes,yes,yes
-Deepseek v3.2,DisposableResourceManagerFactory,initManager,Type-1(c),yes,no,1,yes,yes,yes
-Deepseek v3.2,FigureDataContentProducer,getContent,Type-1(c),yes,no,1,yes,yes,yes
-Deepseek v3.2,HTMLContentProducer,getHTMLFontSizeEquivalent,Type-1(c),yes,no,1,yes,yes,yes
-Deepseek v3.2,ResourceContentProducer,getContent,Type-2(a),yes,no,no,,,3 incomplete refactoring
-Deepseek v3.2,URLContentProducer,getContent,Type-2(a),yes,no,no,,,3 incomplete refactoring
-Deepseek v3.2,AreaTracker,drawXORRect,Type-2(a),yes,no,2,yes,yes,yes
-Deepseek v3.2,DoubleBufferImage,getGraphics,Type-2(a),yes,no,1,yes,yes,yes
-Deepseek v3.2,MiniMapZoomableView,getInverseSubjectTransform,Type-2(a),yes,no,no,,,3 incomplete refactoring
-Deepseek v3.2,ScalingGraphics,clipRect,Type-2(b),yes,no,1,yes,yes,yes
-Deepseek v3.2,ZoomDrawingView,zoom,Type-2(b),yes,no,no,,,3 incomplete refactoring
-Deepseek v3.2,ZoomDrawingView,centralize,Type-2(b),yes,no,1,yes,yes,yes
-Deepseek v3.2,AutoscrollHelper,autoscroll,Type-2(c),yes,no,1,yes,yes,yes
-Deepseek v3.2,CTXCommandMenu,actionPerformed,Type-2(c),yes,no,no,,,3 incomplete refactoring
-Deepseek v3.2,CustomSelectionTool,mouseDown,Type-2(d),yes,no,2,yes,yes,yes
-Deepseek v3.2,FloatingTextArea,setBounds,Type-2(d),yes,no,2,yes,yes,yes
-Deepseek v3.2,MiniMapView,getViewRectangle,Type-2(d),yes,no,1,yes,yes,yes
-Deepseek v3.2,NestedCreationTool,mouseDown,Type-3(a),yes,no,1,yes,yes,yes
-Deepseek v3.2,StandardLayouter,calculateLayout,Type-3(a),yes,no,3,yes,yes,yes
-Deepseek v3.2,WindowMenu,buildChildMenus,Type-3(a),yes,no,1,yes,yes,yes
-Deepseek v3.2,PolygonTool,addPoint,Type-3(b),yes,no,1,yes,yes,yes
-Deepseek v3.2,AbstractLineDecoration,read,Type-3(b),yes,no,no,,,3 incomplete refactoring
-Deepseek v3.2,BorderTool,mouseDown,Type-3(b),yes,no,no,,,did not refactor the correct clone
-Deepseek v3.2,PolygonFigure,handles,Type-3(c),yes,no,no,,,3 incomplete refactoring
-Deepseek v3.2,DesktopEventService,getDrawingViews,Type-3(c),yes,no,2,yes,yes,yes
-Deepseek v3.2,ZoomCommand,zoomView,Type-3(c),yes,no,1,yes,yes,yes
-Deepseek v3.2,ZoomTool,mouseDown,Type-3(d),yes,no,no,,,3 incomplete refactoring
-Deepseek v3.2,TextAreaFigure,setFont,Type-3(d),yes,no,no,,,did not refactor the clone
-Deepseek v3.2,TextAreaTool,mouseUp,Type-3(d),yes,no,no,,,has extract method but did not replace the clones
-Deepseek v3.2,ImageFigure,imageUpdate,Type-3(e),yes,no,no,,,3 incomplete refactoring
-Deepseek v3.2,PolyLineFigure,displayBox,Type-3(e),yes,no,2,yes,yes,yes
-,,,,,,,,,
 ,,,,,,,,,
 Gemini 3 pro,helper.java,getDrawingView,Type 2(b),Yes,no,1,yes,yes,yes
 Gemini 3 pro,drawapplet,init,Type 1(a),Yes,no,1,yes,yes,yes
@@ -108,7 +67,7 @@ Gemini 3 pro,drawapplet,createAttributeConstant,Type 1(a),Yes,no,1,yes,yes,yes
 Gemini 3 pro,nothingapplet,createTools,Type 1(a),Yes,no,1,yes,yes,yes
 Gemini 3 pro,CompositeFigureCreationTool,mouseDown,Type 1(b),Yes,no,1,yes,yes,yes
 Gemini 3 pro,ChopDiamondConnector,chop,Type 1(b),Yes,no,1,yes,yes,yes
-Gemini 3 pro,MiniMapDesktop,createLeftComponent,Type 1(b),Yes,no,2,yes,yes,yes
+Gemini 3 pro,MiniMapDesktop,createLeftComponent,Type 1(b),Yes,no,2,yes,yes,incomplete refactoring -> yes
 Gemini 3 pro,Animator,run,Type 1(b),Yes,no,1,yes,yes,yes
 Gemini 3 pro,CTXWindowMenu,buildChildMenus,Type 1(c),Yes,no,1,yes,yes,yes
 Gemini 3 pro,ColorMap,colorIndex,Type 1(c),Yes,no,1,yes,yes,yes
@@ -122,18 +81,18 @@ Gemini 3 pro,LineConnection,basicMoveBy,Type 2(b),Yes,no,1,yes,yes,yes
 Gemini 3 pro,Triangle Figure,rotate,Type 2(b),Yes,no,1,yes,yes,yes
 Gemini 3 pro,SplitPaneDesktop,removeFromDesktop,Type 2(b),Yes,no,1,yes,yes,yes
 Gemini 3 pro,DNDHelper,createDragGestureRecognizer,Type-3(e),Yes,no,no,,,3 incomplete refactoring
-Gemini 3 pro,DragNDropTool,setCursor,Type-3(c),Yes,no,2,yes,yes,yes
+Gemini 3 pro,DragNDropTool,setCursor,Type-3(c),Yes,no,2,yes,yes,incomplete refactoring -> yes
 Gemini 3 pro,JHDDragSourceListener,dragEnter,Type-3(e),Yes,no,1,yes,yes,yes
-Gemini 3 pro,ColorContentProducer,read,Type-3(c),Yes,no,2,yes,yes,yes
-Gemini 3 pro,CustomToolBar,activateTools,Type-3(d),Yes,no,2,yes,yes,yes
-Gemini 3 pro,FloatingTextArea,endOverlay,Type-3(c),Yes,no,2,yes,yes,yes
-Gemini 3 pro,MiniMapView,paint,Type-3(c),Yes,no,3,yes,yes,yes
+Gemini 3 pro,ColorContentProducer,read,Type-3(c),Yes,no,2,yes,yes,incomplete refactoring -> yes
+Gemini 3 pro,CustomToolBar,activateTools,Type-3(d),Yes,no,2,yes,yes,incomplete refactoring -> yes
+Gemini 3 pro,FloatingTextArea,endOverlay,Type-3(c),Yes,no,2,yes,yes,incomplete refactoring -> yes
+Gemini 3 pro,MiniMapView,paint,Type-3(c),Yes,no,3,yes,yes,2 incomplete refactoring -> yes
 Gemini 3 pro,PolygonFigure,basicDisplayBox,Type-3(c),Yes,no,1,yes,yes,yes
 Gemini 3 pro,SimpleLayouter,calculateLayout,Type-3(c),Yes,no,1,yes,yes,yes
-Gemini 3 pro,DragTracker,mouseDrag,Type-3(e),Yes,no,2,yes,yes,yes
+Gemini 3 pro,DragTracker,mouseDrag,Type-3(e),Yes,no,2,yes,yes,incomplete refactoring -> yes
 Gemini 3 pro,JPanelDesktop,createContents,Type-3(a),Yes,no,1,yes,yes,yes
 Gemini 3 pro,MDI_DrawApplication,newView,Type-3(a),Yes,no,1,yes,yes,yes
-Gemini 3 pro,PolygonTool,deactivate,Type-3(a),Yes,no,2,yes,yes,yes
+Gemini 3 pro,PolygonTool,deactivate,Type-3(a),Yes,no,2,yes,yes,incomplete refactoring -> yes
 Gemini 3 pro,SVGStorageFormat,store,Type-3(a),Yes,no,1,yes,yes,yes
 Gemini 3 pro,TriangleRotationHandle,getOrigin,Type-3(d),Yes,no,1,yes,yes,yes
 Gemini 3 pro,ElbowHandle,invokeStep,Type-3(d),Yes,no,1,yes,yes,yes
@@ -149,7 +108,7 @@ Gemini 3 pro,LocatorConnector,displayBox,Type-1(a),Yes,no,1,yes,yes,yes
 Gemini 3 pro,LocatorHandle,getCursor,Type-1(b),Yes,no,1,yes,yes,yes
 Gemini 3 pro,StandardFigureSelection,getData,Type-1(b),Yes,no,1,yes,yes,yes
 Gemini 3 pro,ToggleGridCommand,execute,Type-1(c),Yes,no,1,yes,yes,yes
-Gemini 3 pro,CommandMenu,actionPerformed,Type-2(d),Yes,no,2,yes,yes,yes
+Gemini 3 pro,CommandMenu,actionPerformed,Type-2(d),Yes,no,2,yes,yes,incomplete refactoring -> yes
 Gemini 3 pro,PaletteLayout,layoutContainer,Type-2(c),Yes,no,1,yes,yes,yes
 Gemini 3 pro,SerializationStorageFormat,restore,Type-1(c),Yes,no,1,yes,yes,yes
 Gemini 3 pro,StandardVersionControlStrategy,assertCompatibleVersion,Type-1(c),Yes,no,1,yes,yes,yes
@@ -157,57 +116,16 @@ Gemini 3 pro,RoundRectangleGeometricAdapter,getShape,Type-2(a),Yes,no,1,yes,yes,
 Gemini 3 pro,ScalingGraphics,scaledShape,Type-2(d),Yes,no,no,,,3 incomplete refactoring
 Gemini 3 pro,ZoomDrawingView,setScale,Type-2(d),Yes,no,no,,,3 incomplete refactoring
 Gemini 3 pro,CTXCommandMenu,checkEnabled,Type-2(a),Yes,no,1,yes,yes,yes
-Gemini 3 pro,MySelectionTool,mouseDown,Type-2(b),Yes,no,2,yes,yes,yes
+Gemini 3 pro,MySelectionTool,mouseDown,Type-2(b),Yes,no,2,yes,yes,incomplete refactoring -> yes
 Gemini 3 pro,PatternPainter,drawPattern,Type-2(c),Yes,no,1,yes,yes,yes
-Gemini 3 pro,SelectAreaTracker,drawXORRect,Type-2(a),Yes,no,2,yes,yes,yes
+Gemini 3 pro,SelectAreaTracker,drawXORRect,Type-2(a),Yes,no,2,yes,yes,call-based clone substitution -> yes
 Gemini 3 pro,Bounds,intersectsBounds,Type-2(a),Yes,no,1,yes,yes,yes
-Gemini 3 pro,drawapplet,setupAttributes,Type-1(a),yes,no,1,yes,yes,yes
-Gemini 3 pro,drawapplication,promptOpen,Type-1(a),yes,no,1,yes,yes,yes
-Gemini 3 pro,DNDHelper,createDropTarget,Type-1(a),yes,no,1,yes,yes,yes
-Gemini 3 pro,DragNDropTool,mouseUp,Type-1(a),yes,no,1,yes,yes,yes
-Gemini 3 pro,HTMLTextAreaFigure,draw,Type-1(a),yes,no,1,yes,yes,yes
-Gemini 3 pro,JHDDragSourceListener,dragDropEnd,Type-1(b),yes,no,1,yes,yes,yes
-Gemini 3 pro,JHDDropTargetListener,supportDropTargetDragEvent,Type-1(b),yes,no,1,yes,yes,yes
-Gemini 3 pro,AttributeFigureContentProducer,getContent,Type-1(b),yes,no,1,yes,yes,yes
-Gemini 3 pro,ColorContentProducer,getContent,Type-1(b),yes,no,1,yes,yes,yes
-Gemini 3 pro,ContentProducerRegistry,getSuperClassContentProducer,Type-1(c),yes,no,1,yes,yes,yes
-Gemini 3 pro,DisposableResourceManagerFactory,initManager,Type-1(c),yes,no,1,yes,yes,yes
-Gemini 3 pro,FigureDataContentProducer,getContent,Type-1(c),yes,no,1,yes,yes,yes
-Gemini 3 pro,HTMLContentProducer,getHTMLFontSizeEquivalent,Type-1(c),yes,no,1,yes,yes,yes
-Gemini 3 pro,ResourceContentProducer,getContent,Type-2(a),yes,no,1,yes,yes,yes
-Gemini 3 pro,URLContentProducer,getContent,Type-2(a),yes,no,1,yes,yes,yes
-Gemini 3 pro,AreaTracker,drawXORRect,Type-2(a),yes,no,1,yes,yes,yes
-Gemini 3 pro,DoubleBufferImage,getGraphics,Type-2(a),yes,no,1,yes,yes,yes
-Gemini 3 pro,MiniMapZoomableView,getInverseSubjectTransform,Type-2(a),yes,no,1,yes,yes,yes
-Gemini 3 pro,ScalingGraphics,clipRect,Type-2(b),yes,no,1,yes,yes,yes
-Gemini 3 pro,ZoomDrawingView,zoom,Type-2(b),yes,no,1,yes,yes,yes
-Gemini 3 pro,ZoomDrawingView,centralize,Type-2(b),yes,no,1,yes,yes,yes
-Gemini 3 pro,AutoscrollHelper,autoscroll,Type-2(c),yes,no,1,yes,yes,yes
-Gemini 3 pro,CTXCommandMenu,actionPerformed,Type-2(c),yes,no,1,yes,yes,yes
-Gemini 3 pro,CustomSelectionTool,mouseDown,Type-2(d),yes,no,1,yes,yes,yes
-Gemini 3 pro,FloatingTextArea,setBounds,Type-2(d),yes,no,1,yes,yes,yes
-Gemini 3 pro,MiniMapView,getViewRectangle,Type-2(d),yes,no,1,yes,yes,yes
-Gemini 3 pro,NestedCreationTool,mouseDown,Type-3(a),yes,no,1,yes,yes,yes
-Gemini 3 pro,StandardLayouter,calculateLayout,Type-3(a),yes,no,1,yes,yes,yes
-Gemini 3 pro,WindowMenu,buildChildMenus,Type-3(a),yes,no,1,yes,yes,yes
-Gemini 3 pro,PolygonTool,addPoint,Type-3(b),yes,no,1,yes,yes,yes
-Gemini 3 pro,AbstractLineDecoration,read,Type-3(b),yes,no,1,yes,yes,yes
-Gemini 3 pro,BorderTool,mouseDown,Type-3(b),yes,no,1,yes,yes,yes
-Gemini 3 pro,PolygonFigure,handles,Type-3(c),yes,no,1,yes,yes,yes
-Gemini 3 pro,DesktopEventService,getDrawingViews,Type-3(c),yes,no,1,yes,yes,yes
-Gemini 3 pro,ZoomCommand,zoomView,Type-3(c),yes,no,2,yes,yes,yes
-Gemini 3 pro,ZoomTool,mouseDown,Type-3(d),yes,no,no,,,3 incomplete refactoring
-Gemini 3 pro,TextAreaFigure,setFont,Type-3(d),yes,no,1,yes,yes,yes
-Gemini 3 pro,TextAreaTool,mouseUp,Type-3(d),yes,no,1,yes,yes,yes
-Gemini 3 pro,ImageFigure,imageUpdate,Type-3(e),yes,no,1,yes,yes,yes
-Gemini 3 pro,PolyLineFigure,displayBox,Type-3(e),yes,no,1,yes,yes,yes
-,,,,,,,,,
 ,,,,,,,,,
 GPT-5.2,helper.java,getDrawingView,Type 2(b),yes,no,1,yes,yes,yes
 GPT-5.2,drawapplet,init,Type 1(a),yes,no,1,yes,yes,yes
 GPT-5.2,FigureAttributeConstant,addConstant,Type 1(a),yes,no,1,yes,yes,yes
 GPT-5.2,drawapplet,createAttributeConstant,Type 1(a),yes,no,1,yes,yes,yes
-GPT-5.2,nothingapplet,createTools,Type 1(a),yes,no,2,yes,yes,yes
+GPT-5.2,nothingapplet,createTools,Type 1(a),yes,no,2,yes,yes,1 incomplete refactoring -> yes
 GPT-5.2,CompositeFigureCreationTool,mouseDown,Type 1(b),yes,no,1,yes,yes,yes
 GPT-5.2,ChopDiamondConnector,chop,Type 1(b),yes,no,1,yes,yes,yes
 GPT-5.2,MiniMapDesktop,createLeftComponent,Type 1(b),yes,no,1,yes,yes,yes
@@ -216,17 +134,17 @@ GPT-5.2,CTXWindowMenu,buildChildMenus,Type 1(c),yes,no,no,,,3 fragmentation of L
 GPT-5.2,ColorMap,colorIndex,Type 1(c),yes,no,1,yes,yes,yes
 GPT-5.2,BouncingDrawing,animationStep,Type 1(c),yes,no,1,yes,yes,yes
 GPT-5.2,PertDependency,handleConnect,Type 1(c),yes,no,1,yes,yes,yes
-GPT-5.2,AutoscrollHelper,getAutoscrollInsets,Type 2(a),yes,no,2,yes,yes,yes
+GPT-5.2,AutoscrollHelper,getAutoscrollInsets,Type 2(a),yes,no,2,yes,yes,1 incomplete refactoring -> yes
 GPT-5.2,Geom ,direction,Type 2(a),yes,no,1,yes,yes,yes
 GPT-5.2,JHDDropTargetListener,dragOver,Type 2(a),yes,no,1,yes,yes,yes
-GPT-5.2,StandardLayouter,layout,Type 2(a),yes,no,2,yes,yes,yes
-GPT-5.2,LineConnection,basicMoveBy,Type 2(b),yes,no,2,yes,yes,yes
-GPT-5.2,Triangle Figure,rotate,Type 2(b),yes,no,2,yes,yes,yes
+GPT-5.2,StandardLayouter,layout,Type 2(a),yes,no,2,yes,yes,1 incomplete refactoring -> yes
+GPT-5.2,LineConnection,basicMoveBy,Type 2(b),yes,no,2,yes,yes,1 incomplete refactoring -> yes
+GPT-5.2,Triangle Figure,rotate,Type 2(b),yes,no,2,yes,yes,1 incomplete refactoring -> yes
 GPT-5.2,SplitPaneDesktop,removeFromDesktop,Type 2(b),yes,no,1,yes,yes,yes
-GPT-5.2,DNDHelper,createDragGestureRecognizer,Type-3(e),yes,no,2,yes,yes,yes
+GPT-5.2,DNDHelper,createDragGestureRecognizer,Type-3(e),yes,no,2,yes,yes,incomplete refactoring -> yes
 GPT-5.2,DragNDropTool,setCursor,Type-3(c),yes,no,1,yes,yes,yes
-GPT-5.2,JHDDragSourceListener,dragEnter,Type-3(e),yes,no,2,yes,yes,yes
-GPT-5.2,ColorContentProducer,read,Type-3(c),yes,no,2,yes,yes,yes
+GPT-5.2,JHDDragSourceListener,dragEnter,Type-3(e),yes,no,2,yes,yes,1 incomplete refactoring -> yes
+GPT-5.2,ColorContentProducer,read,Type-3(c),yes,no,2,yes,yes,1 incomplete refactoring -> yes
 GPT-5.2,CustomToolBar,activateTools,Type-3(d),yes,no,1,yes,yes,yes
 GPT-5.2,FloatingTextArea,endOverlay,Type-3(c),yes,no,1,yes,yes,yes
 GPT-5.2,MiniMapView,paint,Type-3(c),yes,no,1,yes,yes,yes
@@ -235,7 +153,7 @@ GPT-5.2,SimpleLayouter,calculateLayout,Type-3(c),yes,no,1,yes,yes,yes
 GPT-5.2,DragTracker,mouseDrag,Type-3(e),yes,no,1,yes,yes,yes
 GPT-5.2,JPanelDesktop,createContents,Type-3(a),yes,no,1,yes,yes,yes
 GPT-5.2,MDI_DrawApplication,newView,Type-3(a),yes,no,1,yes,yes,yes
-GPT-5.2,PolygonTool,deactivate,Type-3(a),yes,no,2,yes,yes,yes
+GPT-5.2,PolygonTool,deactivate,Type-3(a),yes,no,2,yes,yes,1 incomplete refactoring -> yes
 GPT-5.2,SVGStorageFormat,store,Type-3(a),yes,no,1,yes,yes,yes
 GPT-5.2,TriangleRotationHandle,getOrigin,Type-3(d),yes,no,1,yes,yes,yes
 GPT-5.2,ElbowHandle,invokeStep,Type-3(d),yes,no,1,yes,yes,yes
@@ -257,58 +175,18 @@ GPT-5.2,SerializationStorageFormat,restore,Type-1(c),yes,no,1,yes,yes,yes
 GPT-5.2,StandardVersionControlStrategy,assertCompatibleVersion,Type-1(c),yes,no,1,yes,yes,yes
 GPT-5.2,RoundRectangleGeometricAdapter,getShape,Type-2(a),yes,no,1,yes,yes,yes
 GPT-5.2,ScalingGraphics,scaledShape,Type-2(d),yes,no,1,yes,yes,yes
-GPT-5.2,ZoomDrawingView,setScale,Type-2(d),yes,no,2,yes,yes,yes
+GPT-5.2,ZoomDrawingView,setScale,Type-2(d),yes,no,2,yes,yes,1 incomplete refactoring -> yes
 GPT-5.2,CTXCommandMenu,checkEnabled,Type-2(a),yes,no,1,yes,yes,yes
-GPT-5.2,MySelectionTool,mouseDown,Type-2(b),yes,no,2,yes,yes,yes
+GPT-5.2,MySelectionTool,mouseDown,Type-2(b),yes,no,2,yes,yes,1 incomplete refactoring -> yes
 GPT-5.2,PatternPainter,drawPattern,Type-2(c),yes,no,1,yes,yes,yes
 GPT-5.2,SelectAreaTracker,drawXORRect,Type-2(a),yes,no,1,yes,yes,yes
 GPT-5.2,Bounds,intersectsBounds,Type-2(a),yes,no,1,yes,yes,yes
-GPT-5.2,drawapplet,setupAttributes,Type-1(a),yes,no,1,yes,yes,yes
-GPT-5.2,drawapplication,promptOpen,Type-1(a),yes,no,1,yes,yes,yes
-GPT-5.2,DNDHelper,createDropTarget,Type-1(a),yes,no,1,yes,yes,yes
-GPT-5.2,DragNDropTool,mouseUp,Type-1(a),yes,no,1,yes,yes,yes
-GPT-5.2,HTMLTextAreaFigure,draw,Type-1(a),yes,no,no,,,
-GPT-5.2,JHDDragSourceListener,dragDropEnd,Type-1(b),yes,no,1,yes,yes,yes
-GPT-5.2,JHDDropTargetListener,supportDropTargetDragEvent,Type-1(b),yes,no,1,yes,yes,yes
-GPT-5.2,AttributeFigureContentProducer,getContent,Type-1(b),yes,no,1,yes,yes,yes
-GPT-5.2,ColorContentProducer,getContent,Type-1(b),yes,no,1,yes,yes,yes
-GPT-5.2,ContentProducerRegistry,getSuperClassContentProducer,Type-1(c),yes,no,1,yes,yes,yes
-GPT-5.2,DisposableResourceManagerFactory,initManager,Type-1(c),yes,no,1,yes,yes,yes
-GPT-5.2,FigureDataContentProducer,getContent,Type-1(c),yes,no,1,yes,yes,yes
-GPT-5.2,HTMLContentProducer,getHTMLFontSizeEquivalent,Type-1(c),yes,no,2,yes,yes,yes
-GPT-5.2,ResourceContentProducer,getContent,Type-2(a),yes,no,no,,,3 incomplete refactoring
-GPT-5.2,URLContentProducer,getContent,Type-2(a),yes,no,no,,,3 incomplete refactoring
-GPT-5.2,AreaTracker,drawXORRect,Type-2(a),yes,no,1,yes,yes,yes
-GPT-5.2,DoubleBufferImage,getGraphics,Type-2(a),yes,no,1,yes,yes,yes
-GPT-5.2,MiniMapZoomableView,getInverseSubjectTransform,Type-2(a),yes,no,3,yes,yes,yes
-GPT-5.2,ScalingGraphics,clipRect,Type-2(b),yes,no,1,yes,yes,yes
-GPT-5.2,ZoomDrawingView,zoom,Type-2(b),yes,no,no,,,3 incomplete refactoring
-GPT-5.2,ZoomDrawingView,centralize,Type-2(b),yes,no,1,yes,yes,yes
-GPT-5.2,AutoscrollHelper,autoscroll,Type-2(c),yes,no,1,yes,yes,yes
-GPT-5.2,CTXCommandMenu,actionPerformed,Type-2(c),yes,no,no,,,3 incomplete refactoring
-GPT-5.2,CustomSelectionTool,mouseDown,Type-2(d),yes,no,1,yes,yes,yes
-GPT-5.2,FloatingTextArea,setBounds,Type-2(d),yes,no,1,yes,yes,yes
-GPT-5.2,MiniMapView,getViewRectangle,Type-2(d),yes,no,1,yes,yes,yes
-GPT-5.2,NestedCreationTool,mouseDown,Type-3(a),yes,no,1,yes,yes,yes
-GPT-5.2,StandardLayouter,calculateLayout,Type-3(a),yes,no,1,yes,yes,yes
-GPT-5.2,WindowMenu,buildChildMenus,Type-3(a),yes,no,1,yes,yes,yes
-GPT-5.2,PolygonTool,addPoint,Type-3(b),yes,no,1,yes,yes,yes
-GPT-5.2,AbstractLineDecoration,read,Type-3(b),yes,no,1,yes,yes,yes
-GPT-5.2,BorderTool,mouseDown,Type-3(b),yes,no,1,yes,yes,yes
-GPT-5.2,PolygonFigure,handles,Type-3(c),yes,no,2,yes,yes,yes
-GPT-5.2,DesktopEventService,getDrawingViews,Type-3(c),yes,no,1,yes,yes,yes
-GPT-5.2,ZoomCommand,zoomView,Type-3(c),yes,no,1,yes,yes,yes
-GPT-5.2,ZoomTool,mouseDown,Type-3(d),yes,no,1,yes,yes,yes
-GPT-5.2,TextAreaFigure,setFont,Type-3(d),yes,no,no,,,3 extract method not confirmed
-GPT-5.2,TextAreaTool,mouseUp,Type-3(d),yes,no,no,,,3 incomplete refactoring
-GPT-5.2,ImageFigure,imageUpdate,Type-3(e),yes,no,1,yes,yes,yes
-GPT-5.2,PolyLineFigure,displayBox,Type-3(e),yes,no,no,no,,
 ,,,,,,,,,
 Claude Opus 4.6,helper.java,getDrawingView,Type 2(b),yes,no,1,yes,yes,yes
 Claude Opus 4.6,drawapplet,init,Type 1(a),yes,no,1,yes,yes,yes
 Claude Opus 4.6,FigureAttributeConstant,addConstant,Type 1(a),yes,no,1,yes,yes,yes
 Claude Opus 4.6,drawapplet,createAttributeConstant,Type 1(a),yes,no,1,yes,yes,yes
-Claude Opus 4.6,nothingapplet,createTools,Type 1(a),yes,no,3,yes,yes,yes
+Claude Opus 4.6,nothingapplet,createTools,Type 1(a),yes,no,3,yes,yes,2 incomplete refactoring -> yes
 Claude Opus 4.6,CompositeFigureCreationTool,mouseDown,Type 1(b),yes,no,1,yes,yes,yes
 Claude Opus 4.6,ChopDiamondConnector,chop,Type 1(b),yes,no,1,yes,yes,yes
 Claude Opus 4.6,MiniMapDesktop,createLeftComponent,Type 1(b),yes,no,1,yes,yes,yes
@@ -329,19 +207,19 @@ Claude Opus 4.6,DragNDropTool,setCursor,Type-3(c),yes,no,no,,,3 incomplete refac
 Claude Opus 4.6,JHDDragSourceListener,dragEnter,Type-3(e),yes,no,no,,,3 incomplete refactoring 
 Claude Opus 4.6,ColorContentProducer,read,Type-3(c),yes,no,no,,,3 incomplete refactoring 
 Claude Opus 4.6,CustomToolBar,activateTools,Type-3(d),yes,no,no,,,3 incomplete refactoring 
-Claude Opus 4.6,FloatingTextArea,endOverlay,Type-3(c),yes,no,2,yes,yes,yes
-Claude Opus 4.6,MiniMapView,paint,Type-3(c),yes,no,3,yes,yes,yes
+Claude Opus 4.6,FloatingTextArea,endOverlay,Type-3(c),yes,no,2,yes,yes,1 incomplete refactoring -> yes
+Claude Opus 4.6,MiniMapView,paint,Type-3(c),yes,no,3,yes,yes,2 incomplete refactoring -> yes
 Claude Opus 4.6,PolygonFigure,basicDisplayBox,Type-3(c),yes,no,1,yes,yes,yes
 Claude Opus 4.6,SimpleLayouter,calculateLayout,Type-3(c),yes,no,1,yes,yes,yes
-Claude Opus 4.6,DragTracker,mouseDrag,Type-3(e),yes,no,2,yes,yes,yes
+Claude Opus 4.6,DragTracker,mouseDrag,Type-3(e),yes,no,2,yes,yes,1 incomplete refactoring -> yes
 Claude Opus 4.6,JPanelDesktop,createContents,Type-3(a),yes,no,1,yes,yes,yes
 Claude Opus 4.6,MDI_DrawApplication,newView,Type-3(a),yes,no,1,yes,yes,yes
 Claude Opus 4.6,PolygonTool,deactivate,Type-3(a),yes,no,no,,,3 incomplete refactoring 
 Claude Opus 4.6,SVGStorageFormat,store,Type-3(a),yes,no,1,yes,yes,yes
 Claude Opus 4.6,TriangleRotationHandle,getOrigin,Type-3(d),yes,no,1,yes,yes,yes
-Claude Opus 4.6,ElbowHandle,invokeStep,Type-3(d),yes,no,3,yes,yes,yes
+Claude Opus 4.6,ElbowHandle,invokeStep,Type-3(d),yes,no,3,yes,yes,2 incomplete refactoring -> yes
 Claude Opus 4.6,ScribbleTool,point,Type-2(c),yes,no,1,yes,yes,yes
-Claude Opus 4.6,URLTool,beginEdit,Type-3(b),yes,no,2,yes,yes,yes
+Claude Opus 4.6,URLTool,beginEdit,Type-3(b),yes,no,2,yes,yes,1 incomplete refactoring -> yes
 Claude Opus 4.6,NodeFigure,drawBorder,Type-3(b),yes,no,1,yes,yes,yes
 Claude Opus 4.6,PertFigure,drawBorder,Type-3(b),yes,no,1,yes,yes,yes
 Claude Opus 4.6,BufferedUpdateStrategy,draw,Type-2(d),yes,no,no,,,3 incomplete refactoring 
@@ -351,7 +229,7 @@ Claude Opus 4.6,HandleAndEnumerator,nextHandle,Type-1(a),yes,no,1,yes,yes,yes
 Claude Opus 4.6,LocatorConnector,displayBox,Type-1(a),yes,no,1,yes,yes,yes
 Claude Opus 4.6,LocatorHandle,getCursor,Type-1(b),yes,no,1,yes,yes,yes
 Claude Opus 4.6,StandardFigureSelection,getData,Type-1(b),yes,no,1,yes,yes,yes
-Claude Opus 4.6,ToggleGridCommand,execute,Type-1(c),yes,no,2,yes,yes,yes
+Claude Opus 4.6,ToggleGridCommand,execute,Type-1(c),yes,no,2,yes,yes,1 incomplete refactoring -> yes
 Claude Opus 4.6,CommandMenu,actionPerformed,Type-2(d),yes,no,1,yes,yes,yes
 Claude Opus 4.6,PaletteLayout,layoutContainer,Type-2(c),yes,no,1,yes,yes,yes
 Claude Opus 4.6,SerializationStorageFormat,restore,Type-1(c),yes,no,1,yes,yes,yes
@@ -364,43 +242,3 @@ Claude Opus 4.6,MySelectionTool,mouseDown,Type-2(b),yes,no,no,,,3 incomplete ref
 Claude Opus 4.6,PatternPainter,drawPattern,Type-2(c),yes,no,no,,,1 post-extraction clone deletion  2 incomplete refactoring 
 Claude Opus 4.6,SelectAreaTracker,drawXORRect,Type-2(a),yes,no,1,yes,yes,yes
 Claude Opus 4.6,Bounds,intersectsBounds,Type-2(a),yes,no,1,yes,yes,yes
-Claude Opus 4.6,drawapplet,setupAttributes,Type-1(a),yes,no,no,no,,yes
-Claude Opus 4.6,drawapplication,promptOpen,Type-1(a),yes,no,no,,,3 direct clone removal
-Claude Opus 4.6,DNDHelper,createDropTarget,Type-1(a),yes,no,1,yes,yes,yes
-Claude Opus 4.6,DragNDropTool,mouseUp,Type-1(a),yes,no,1,yes,yes,yes
-Claude Opus 4.6,HTMLTextAreaFigure,draw,Type-1(a),yes,no,no,no,,yes
-Claude Opus 4.6,JHDDragSourceListener,dragDropEnd,Type-1(b),yes,no,1,yes,yes,yes
-Claude Opus 4.6,JHDDropTargetListener,supportDropTargetDragEvent,Type-1(b),yes,no,1,yes,yes,yes
-Claude Opus 4.6,AttributeFigureContentProducer,getContent,Type-1(b),yes,no,1,yes,yes,yes
-Claude Opus 4.6,ColorContentProducer,getContent,Type-1(b),yes,no,1,yes,yes,yes
-Claude Opus 4.6,ContentProducerRegistry,getSuperClassContentProducer,Type-1(c),yes,no,2,yes,yes,yes
-Claude Opus 4.6,DisposableResourceManagerFactory,initManager,Type-1(c),yes,no,1,yes,yes,yes
-Claude Opus 4.6,FigureDataContentProducer,getContent,Type-1(c),yes,no,1,yes,yes,yes
-Claude Opus 4.6,HTMLContentProducer,getHTMLFontSizeEquivalent,Type-1(c),yes,no,1,yes,yes,yes
-Claude Opus 4.6,ResourceContentProducer,getContent,Type-2(a),yes,no,1,yes,yes,yes
-Claude Opus 4.6,URLContentProducer,getContent,Type-2(a),yes,no,1,yes,yes,yes
-Claude Opus 4.6,AreaTracker,drawXORRect,Type-2(a),yes,no,1,yes,yes,yes
-Claude Opus 4.6,DoubleBufferImage,getGraphics,Type-2(a),yes,no,1,yes,yes,yes
-Claude Opus 4.6,MiniMapZoomableView,getInverseSubjectTransform,Type-2(a),yes,no,1,yes,yes,yes
-Claude Opus 4.6,ScalingGraphics,clipRect,Type-2(b),yes,no,2,yes,yes,yes
-Claude Opus 4.6,ZoomDrawingView,zoom,Type-2(b),yes,no,2,yes,yes,yes
-Claude Opus 4.6,ZoomDrawingView,centralize,Type-2(b),yes,no,2,yes,yes,yes
-Claude Opus 4.6,AutoscrollHelper,autoscroll,Type-2(c),yes,no,1,yes,yes,yes
-Claude Opus 4.6,CTXCommandMenu,actionPerformed,Type-2(c),yes,no,1,yes,yes,yes
-Claude Opus 4.6,CustomSelectionTool,mouseDown,Type-2(d),yes,no,1,yes,yes,yes
-Claude Opus 4.6,FloatingTextArea,setBounds,Type-2(d),yes,no,1,yes,yes,yes
-Claude Opus 4.6,MiniMapView,getViewRectangle,Type-2(d),yes,no,1,yes,yes,yes
-Claude Opus 4.6,NestedCreationTool,mouseDown,Type-3(a),yes,no,no,,,3 extract method not confirmed
-Claude Opus 4.6,StandardLayouter,calculateLayout,Type-3(a),yes,no,1,yes,yes,yes
-Claude Opus 4.6,WindowMenu,buildChildMenus,Type-3(a),yes,no,1,yes,yes,yes
-Claude Opus 4.6,PolygonTool,addPoint,Type-3(b),yes,no,1,yes,yes,yes
-Claude Opus 4.6,AbstractLineDecoration,read,Type-3(b),yes,no,1,yes,yes,yes
-Claude Opus 4.6,BorderTool,mouseDown,Type-3(b),yes,no,1,yes,yes,yes
-Claude Opus 4.6,PolygonFigure,handles,Type-3(c),yes,no,1,yes,yes,yes
-Claude Opus 4.6,DesktopEventService,getDrawingViews,Type-3(c),yes,no,1,yes,yes,yes
-Claude Opus 4.6,ZoomCommand,zoomView,Type-3(c),yes,no,no,,,3 incomplete refactoring
-Claude Opus 4.6,ZoomTool,mouseDown,Type-3(d),yes,no,1,yes,yes,yes
-Claude Opus 4.6,TextAreaFigure,setFont,Type-3(d),yes,no,no,,,3 direct clone removal
-Claude Opus 4.6,TextAreaTool,mouseUp,Type-3(d),yes,no,no,,,3 incomplete refactoring 
-Claude Opus 4.6,ImageFigure,imageUpdate,Type-3(e),yes,no,1,yes,yes,yes
-Claude Opus 4.6,PolyLineFigure,displayBox,Type-3(e),yes,no,1,yes,yes,yes

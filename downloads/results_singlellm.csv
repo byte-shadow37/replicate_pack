@@ -59,46 +59,6 @@ Deepseek v3.2,MySelectionTool,mouseDown,Type-2(b),Yes,Yes,Yes,3 incomplete refac
 Deepseek v3.2,PatternPainter,drawPattern,Type-2(c),yes,yes,yes,yes,1
 Deepseek v3.2,SelectAreaTracker,drawXORRect,Type-2(a),Yes,Yes,Yes,1 incomlpete refactoring,2
 Deepseek v3.2,Bounds,intersectsBounds,Type-2(a),Yes,Yes,Yes,3 incomplete refactoring,no
-Deepseek v3.2,drawapplet,setupAttributes,Type-1(a),yes,yes,yes,yes,1
-Deepseek v3.2,drawapplication,promptOpen,Type-1(a),yes,yes,yes,yes,1
-Deepseek v3.2,DNDHelper,createDropTarget,Type-1(a),yes,yes,yes,yes,1
-Deepseek v3.2,DragNDropTool,mouseUp,Type-1(a),yes,yes,yes,yes,1
-Deepseek v3.2,HTMLTextAreaFigure,draw,Type-1(a),yes,yes,yes,yes,1
-Deepseek v3.2,JHDDragSourceListener,dragDropEnd,Type-1(b),yes,yes,yes,2 incomplete refactoring,3
-Deepseek v3.2,JHDDropTargetListener,supportDropTargetDragEvent,Type-1(b),yes,yes,yes,yes,1
-Deepseek v3.2,AttributeFigureContentProducer,getContent,Type-1(b),yes,yes,yes,yes,1
-Deepseek v3.2,ColorContentProducer,getContent,Type-1(b),yes,yes,yes,1 incomplete refactoring,2
-Deepseek v3.2,ContentProducerRegistry,getSuperClassContentProducer,Type-1(c),yes,yes,yes,yes,1
-Deepseek v3.2,DisposableResourceManagerFactory,initManager,Type-1(c),yes,yes,yes,yes,1
-Deepseek v3.2,FigureDataContentProducer,getContent,Type-1(c),yes,yes,yes,yes,1
-Deepseek v3.2,HTMLContentProducer,getHTMLFontSizeEquivalent,Type-1(c),yes,yes,yes,yes,1
-Deepseek v3.2,ResourceContentProducer,getContent,Type-2(a),yes,yes,yes,yes,1
-Deepseek v3.2,URLContentProducer,getContent,Type-2(a),yes,yes,yes,yes,1
-Deepseek v3.2,AreaTracker,drawXORRect,Type-2(a),yes,yes,yes,yes,1
-Deepseek v3.2,DoubleBufferImage,getGraphics,Type-2(a),yes,yes,yes,yes,1
-Deepseek v3.2,MiniMapZoomableView,getInverseSubjectTransform,Type-2(a),yes,yes,yes,2 incomplete refactoring,3
-Deepseek v3.2,ScalingGraphics,clipRect,Type-2(b),yes,yes,yes,3 did not refactor this clone,no
-Deepseek v3.2,ZoomDrawingView,zoom,Type-2(b),yes,yes,yes,yes,1
-Deepseek v3.2,ZoomDrawingView,centralize,Type-2(b),yes,yes,yes,yes,1
-Deepseek v3.2,AutoscrollHelper,autoscroll,Type-2(c),yes,yes,yes,yes,1
-Deepseek v3.2,CTXCommandMenu,actionPerformed,Type-2(c),yes,yes,yes,1 did not refactor this clone,2
-Deepseek v3.2,CustomSelectionTool,mouseDown,Type-2(d),yes,yes,yes,yes,1
-Deepseek v3.2,FloatingTextArea,setBounds,Type-2(d),yes,yes,yes,yes,1
-Deepseek v3.2,MiniMapView,getViewRectangle,Type-2(d),yes,yes,yes,3 incomplete refactoring,no
-Deepseek v3.2,NestedCreationTool,mouseDown,Type-3(a),yes,yes,yes,yes,1
-Deepseek v3.2,StandardLayouter,calculateLayout,Type-3(a),yes,yes,yes,3 incomplete refactoring,no
-Deepseek v3.2,WindowMenu,buildChildMenus,Type-3(a),yes,yes,yes,yes,1
-Deepseek v3.2,PolygonTool,addPoint,Type-3(b),yes,yes,yes,yes,1
-Deepseek v3.2,AbstractLineDecoration,read,Type-3(b),yes,yes,yes,yes,1
-Deepseek v3.2,BorderTool,mouseDown,Type-3(b),yes,yes,yes,yes,1
-Deepseek v3.2,PolygonFigure,handles,Type-3(c),yes,yes,yes,yes,1
-Deepseek v3.2,DesktopEventService,getDrawingViews,Type-3(c),yes,yes,yes,yes,1
-Deepseek v3.2,ZoomCommand,zoomView,Type-3(c),yes,yes,yes,yes,1
-Deepseek v3.2,ZoomTool,mouseDown,Type-3(d),yes,yes,yes,3 incomplete refactoring,no
-Deepseek v3.2,TextAreaFigure,setFont,Type-3(d),yes,yes,yes,yes,1
-Deepseek v3.2,TextAreaTool,mouseUp,Type-3(d),yes,yes,yes,yes,1
-Deepseek v3.2,ImageFigure,imageUpdate,Type-3(e),yes,yes,yes,yes,1
-Deepseek v3.2,PolyLineFigure,displayBox,Type-3(e),no,,,,no
 ,,,,,,,,
 Gemini 3 pro,helper.java,getDrawingView,Type 2(b),Yes,Yes,Yes,3 call based substitution,no
 Gemini 3 pro,drawapplet,init,Type 1(a),Yes,Yes,Yes,3 call based substitution,no
@@ -160,46 +120,6 @@ Gemini 3 pro,MySelectionTool,mouseDown,Type-2(b),Yes,Yes,Yes,3 incomplete refact
 Gemini 3 pro,PatternPainter,drawPattern,Type-2(c),Yes,Yes,Yes,Yes ,1
 Gemini 3 pro,SelectAreaTracker,drawXORRect,Type-2(a),Yes,Yes,Yes,"2 call based substitution, 1 incomplete refactoring",no
 Gemini 3 pro,Bounds,intersectsBounds,Type-2(a),Yes,Yes,Yes,"2 call based substitution, 1 delegation",no
-Gemini 3 pro,drawapplet,setupAttributes,Type-1(a),yes,yes,yes,yes,1
-Gemini 3 pro,drawapplication,promptOpen,Type-1(a),yes,yes,yes,yes,1
-Gemini 3 pro,DNDHelper,createDropTarget,Type-1(a),yes,yes,yes,yes,1
-Gemini 3 pro,DragNDropTool,mouseUp,Type-1(a),yes,yes,yes,yes,1
-Gemini 3 pro,HTMLTextAreaFigure,draw,Type-1(a),yes,yes,yes,yes,1
-Gemini 3 pro,JHDDragSourceListener,dragDropEnd,Type-1(b),yes,yes,yes,yes,1
-Gemini 3 pro,JHDDropTargetListener,supportDropTargetDragEvent,Type-1(b),yes,yes,yes,yes,1
-Gemini 3 pro,AttributeFigureContentProducer,getContent,Type-1(b),yes,yes,yes,yes,1
-Gemini 3 pro,ColorContentProducer,getContent,Type-1(b),yes,yes,yes,yes,1
-Gemini 3 pro,ContentProducerRegistry,getSuperClassContentProducer,Type-1(c),yes,yes,yes,yes,1
-Gemini 3 pro,DisposableResourceManagerFactory,initManager,Type-1(c),yes,yes,yes,1 incomplete refactoring,2
-Gemini 3 pro,FigureDataContentProducer,getContent,Type-1(c),yes,yes,yes,yes,1
-Gemini 3 pro,HTMLContentProducer,getHTMLFontSizeEquivalent,Type-1(c),yes,yes,yes,yes,1
-Gemini 3 pro,ResourceContentProducer,getContent,Type-2(a),yes,yes,yes,yes,1
-Gemini 3 pro,URLContentProducer,getContent,Type-2(a),yes,yes,yes,yes,1
-Gemini 3 pro,AreaTracker,drawXORRect,Type-2(a),yes,yes,yes,yes,1
-Gemini 3 pro,DoubleBufferImage,getGraphics,Type-2(a),yes,yes,yes,yes,1
-Gemini 3 pro,MiniMapZoomableView,getInverseSubjectTransform,Type-2(a),yes,yes,yes,1 incomplete refactoring,2
-Gemini 3 pro,ScalingGraphics,clipRect,Type-2(b),yes,yes,yes,3 did not refactor this clone,no
-Gemini 3 pro,ZoomDrawingView,zoom,Type-2(b),yes,yes,yes,1 did not refactor this clone,2
-Gemini 3 pro,ZoomDrawingView,centralize,Type-2(b),yes,yes,yes,3 incomplete refactoring,no
-Gemini 3 pro,AutoscrollHelper,autoscroll,Type-2(c),yes,yes,yes,yes,1
-Gemini 3 pro,CTXCommandMenu,actionPerformed,Type-2(c),yes,yes,yes,yes,1
-Gemini 3 pro,CustomSelectionTool,mouseDown,Type-2(d),yes,yes,yes,yes,1
-Gemini 3 pro,FloatingTextArea,setBounds,Type-2(d),yes,yes,yes,2 incomplete refactoring,3
-Gemini 3 pro,MiniMapView,getViewRectangle,Type-2(d),yes,yes,yes,3 incomplete refactoring,no
-Gemini 3 pro,NestedCreationTool,mouseDown,Type-3(a),yes,yes,yes,3 incomplete refactoring,no
-Gemini 3 pro,StandardLayouter,calculateLayout,Type-3(a),yes,yes,yes,yes,1
-Gemini 3 pro,WindowMenu,buildChildMenus,Type-3(a),yes,yes,yes,3 incomplete refactoring,no
-Gemini 3 pro,PolygonTool,addPoint,Type-3(b),yes,yes,yes,3 incomplete refactoring,no
-Gemini 3 pro,AbstractLineDecoration,read,Type-3(b),yes,yes,yes,3 incomplete refactoring,no
-Gemini 3 pro,BorderTool,mouseDown,Type-3(b),yes,yes,yes,3 did not refactor this clone,no
-Gemini 3 pro,PolygonFigure,handles,Type-3(c),yes,yes,yes,"2 did not refactor this clone, 1 incomplete refactoring",no
-Gemini 3 pro,DesktopEventService,getDrawingViews,Type-3(c),yes,yes,yes,yes,1
-Gemini 3 pro,ZoomCommand,zoomView,Type-3(c),yes,yes,yes,yes,1
-Gemini 3 pro,ZoomTool,mouseDown,Type-3(d),yes,yes,yes,3 incomplete refactoring,no
-Gemini 3 pro,TextAreaFigure,setFont,Type-3(d),yes,yes,yes,yes,1
-Gemini 3 pro,TextAreaTool,mouseUp,Type-3(d),yes,yes,yes,yes,1
-Gemini 3 pro,ImageFigure,imageUpdate,Type-3(e),yes,yes,yes,yes,1
-Gemini 3 pro,PolyLineFigure,displayBox,Type-3(e),yes,yes,yes,yes,1
 ,,,,,,,,
 GPT-5.2,helper.java,getDrawingView,Type 2(b),Yes,Yes,Yes,Yes,1
 GPT-5.2,drawapplet,init,Type 1(a),Yes,Yes,Yes,Yes,1
@@ -261,6 +181,7 @@ GPT-5.2,MySelectionTool,mouseDown,Type-2(b),Yes,Yes,Yes,3 incomplete refactoring
 GPT-5.2,PatternPainter,drawPattern,Type-2(c),Yes,yes,yes,yes,1
 GPT-5.2,SelectAreaTracker,drawXORRect,Type-2(a),Yes,Yes,Yes,Yes,1
 GPT-5.2,Bounds,intersectsBounds,Type-2(a),Yes,Yes,Yes,Yes,1
+<<<<<<< HEAD
 GPT-5.2,drawapplet,setupAttributes,Type-1(a),yes,yes,yes,1 did not refactor this clone,2
 GPT-5.2,drawapplication,promptOpen,Type-1(a),yes,yes,yes,yes,1
 GPT-5.2,DNDHelper,createDropTarget,Type-1(a),yes,yes,yes,yes,1
@@ -302,6 +223,8 @@ GPT-5.2,TextAreaTool,mouseUp,Type-3(d),yes,yes,yes,yes,1
 GPT-5.2,ImageFigure,imageUpdate,Type-3(e),yes,yes,yes,3 incomplete refactoring,no
 GPT-5.2,PolyLineFigure,displayBox,Type-3(e),yes,yes,yes,3 did not refactor this clone,no
 ,,,,,,,,
+=======
+>>>>>>> parent of 964c8d7 (update)
 ,,,,,,,,
 Claude Opus 4.6,helper.java,getDrawingView,Type 2(b),Yes,Yes,Yes,Yes,1
 Claude Opus 4.6,drawapplet,init,Type 1(a),Yes,Yes,Yes,Yes,1
@@ -363,43 +286,3 @@ Claude Opus 4.6,MySelectionTool,mouseDown,Type-2(b),Yes,Yes,Yes,3 incomplete ref
 Claude Opus 4.6,PatternPainter,drawPattern,Type-2(c),Yes,Yes,Yes,Yes ,1
 Claude Opus 4.6,SelectAreaTracker,drawXORRect,Type-2(a),Yes,Yes,Yes,"2 call based substitution, 1 direct clone removel",no
 Claude Opus 4.6,Bounds,intersectsBounds,Type-2(a),Yes,Yes,Yes,Yes,1
-Claude Opus 4.6,drawapplet,setupAttributes,Type-1(a),yes,yes,yes,yes,1
-Claude Opus 4.6,drawapplication,promptOpen,Type-1(a),yes,yes,yes,yes,1
-Claude Opus 4.6,DNDHelper,createDropTarget,Type-1(a),yes,yes,yes,yes,1
-Claude Opus 4.6,DragNDropTool,mouseUp,Type-1(a),yes,yes,yes,yes,1
-Claude Opus 4.6,HTMLTextAreaFigure,draw,Type-1(a),yes,yes,yes,yes,1
-Claude Opus 4.6,JHDDragSourceListener,dragDropEnd,Type-1(b),yes,yes,yes,yes,1
-Claude Opus 4.6,JHDDropTargetListener,supportDropTargetDragEvent,Type-1(b),yes,yes,yes,yes,1
-Claude Opus 4.6,AttributeFigureContentProducer,getContent,Type-1(b),yes,yes,yes,yes,1
-Claude Opus 4.6,ColorContentProducer,getContent,Type-1(b),yes,yes,yes,yes,1
-Claude Opus 4.6,ContentProducerRegistry,getSuperClassContentProducer,Type-1(c),yes,yes,yes,yes,1
-Claude Opus 4.6,DisposableResourceManagerFactory,initManager,Type-1(c),yes,yes,yes,1 incomplete refactoring,2
-Claude Opus 4.6,FigureDataContentProducer,getContent,Type-1(c),yes,yes,yes,yes,1
-Claude Opus 4.6,HTMLContentProducer,getHTMLFontSizeEquivalent,Type-1(c),yes,yes,yes,yes,1
-Claude Opus 4.6,ResourceContentProducer,getContent,Type-2(a),yes,yes,yes,yes,1
-Claude Opus 4.6,URLContentProducer,getContent,Type-2(a),yes,yes,yes,yes,1
-Claude Opus 4.6,AreaTracker,drawXORRect,Type-2(a),yes,yes,yes,3 direct clone removal,no
-Claude Opus 4.6,DoubleBufferImage,getGraphics,Type-2(a),yes,yes,yes,yes,1
-Claude Opus 4.6,MiniMapZoomableView,getInverseSubjectTransform,Type-2(a),yes,yes,yes,yes,1
-Claude Opus 4.6,ScalingGraphics,clipRect,Type-2(b),yes,yes,yes,"2 direct clone removal, incomplete refactoring",no
-Claude Opus 4.6,ZoomDrawingView,zoom,Type-2(b),yes,yes,yes,"incomplete refactoring, direct clone removal",3
-Claude Opus 4.6,ZoomDrawingView,centralize,Type-2(b),yes,yes,yes,2 direct removal,3
-Claude Opus 4.6,AutoscrollHelper,autoscroll,Type-2(c),yes,yes,yes,yes,1
-Claude Opus 4.6,CTXCommandMenu,actionPerformed,Type-2(c),yes,yes,yes,yes,1
-Claude Opus 4.6,CustomSelectionTool,mouseDown,Type-2(d),yes,yes,yes,yes,1
-Claude Opus 4.6,FloatingTextArea,setBounds,Type-2(d),yes,yes,yes,yes,1
-Claude Opus 4.6,MiniMapView,getViewRectangle,Type-2(d),yes,yes,yes,3 incomplete refactoring,no
-Claude Opus 4.6,NestedCreationTool,mouseDown,Type-3(a),yes,yes,yes,3 incomplete refactoring,no
-Claude Opus 4.6,StandardLayouter,calculateLayout,Type-3(a),yes,yes,yes,yes,1
-Claude Opus 4.6,WindowMenu,buildChildMenus,Type-3(a),yes,yes,yes,3 incomplete refactoring,no
-Claude Opus 4.6,PolygonTool,addPoint,Type-3(b),yes,yes,yes,yes,1
-Claude Opus 4.6,AbstractLineDecoration,read,Type-3(b),yes,yes,yes,yes,1
-Claude Opus 4.6,BorderTool,mouseDown,Type-3(b),yes,yes,yes,yes,1
-Claude Opus 4.6,PolygonFigure,handles,Type-3(c),yes,yes,yes,yes,1
-Claude Opus 4.6,DesktopEventService,getDrawingViews,Type-3(c),yes,yes,yes,yes,1
-Claude Opus 4.6,ZoomCommand,zoomView,Type-3(c),yes,yes,yes,yes,1
-Claude Opus 4.6,ZoomTool,mouseDown,Type-3(d),yes,yes,yes,3 incomplete refactoring,no
-Claude Opus 4.6,TextAreaFigure,setFont,Type-3(d),yes,yes,yes,yes,1
-Claude Opus 4.6,TextAreaTool,mouseUp,Type-3(d),yes,yes,yes,yes,1
-Claude Opus 4.6,ImageFigure,imageUpdate,Type-3(e),yes,yes,yes,yes,1
-Claude Opus 4.6,PolyLineFigure,displayBox,Type-3(e),yes,yes,yes,yes,1
